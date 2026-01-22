@@ -1,0 +1,1 @@
+A *Higher-Order Function* is a [[Mathematics/SetTheory/Function|Function]] whose input/output has function(s).

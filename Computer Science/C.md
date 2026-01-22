@@ -11,6 +11,6 @@ See [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/) and [ANSI C
 | ----------------------- | ----------------------------- | ------------------------- | -------------------------------------------------------- |
 | [[C Notable Features]]  | [[C Datatypes]]               | [[C Common Functions]]    | [C Libraries](https://cplusplus.com/reference/clibrary/) |
 | [[C Boolean]]           | [[C Preproccessor Directive]] | [[C Struct]]              | [[C Union]]                                              |
-| [[C Array]]             | [[C Function Pointer]]        | [[C Aliases]]             | [[C Main]]                                               |
+| [[C Array]]             | [[Function Pointer]]        | [[C Aliases]]             | [[C Main]]                                               |
 | [[C Memory Layout]]     | [[C Scope]]                   | [[C Variable Management]] | [[C const]]                                              |
 | [[C Variadic Function]] | [[Signal]]                    |                           |                                                          |
