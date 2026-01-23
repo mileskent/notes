@@ -1,0 +1,1 @@
+A *Lambda Expression* is any expression in [[Lambda Calculus]].
