@@ -1,3 +1,6 @@
+---
+date: 2026-01-22
+---
 In [[Lambda Calculus]], a *function abstraction* refers to the proccess of defining a [[Mathematics/SetTheory/Function|Function]] by specifying how it [[Transformation|transforms]] an input.
 
 A minimal function abstraction looks like this:
