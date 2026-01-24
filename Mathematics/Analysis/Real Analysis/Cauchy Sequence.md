@@ -1,0 +1,1 @@
+A [[Sequence]] where the elements get "arbitrarily close" to each other as you go further along the sequence.

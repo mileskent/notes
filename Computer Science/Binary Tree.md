@@ -7,7 +7,7 @@ date: 2025-01-07
 * It defines [[Binary Heap]], [[Binary Search Tree]]
 ##### Properties
 * [[Full]]
-* [[Complete]]
+* [[Computer Science/Complete]]
 * [[Balanced]]
 
 ### Traversal

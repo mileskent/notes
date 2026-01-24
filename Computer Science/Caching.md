@@ -103,16 +103,15 @@ We have to evict an entry from the cache even though the cache is not full, and 
 * Conflict misses are misses that would not occur if the cache were fully associative with LRU replacement. Fully associative caches can't have conflict misses, by definition.
 
 # Effective Memory Access Time
-#todo clean up this section
-Hit rate $h$
-Miss Rate $m$
-Hit rate + Miss rate = 1
-Cache access time $T_c$
-Memory access time = Miss penalty = $T_m$
-Memory cycle time, Memory access time
+* Hit rate $h$
+* Miss Rate $m$
+* Hit rate + Miss rate = 1
+* Cache access time $T_c$
+* Memory access time = Miss penalty = $T_m$
+* 8 Memory cycle time, Memory access time
 
 Effective Memory Access Time (EMAT) = $\text{EMAT}_{i} = T_{i} + M_{i} \cdot\text{EMAT}_{i+1}$
-where $T_i$ is cache access time, and $M_i$ is the cache miss rate
+* where $T_i$ is cache access time, and $M_i$ is the cache miss rate
 ![[Pasted image 20251025235902.png|300]]
 
 

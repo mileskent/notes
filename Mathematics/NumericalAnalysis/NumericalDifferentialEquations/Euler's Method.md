@@ -81,7 +81,7 @@ $$
 $$
 \frac{1}{2} \exp(2t_{n}) + \frac{1}{2} - (2h + 1) y_{n-1} +h
 $$
-#todo some taylor series stuff happens here
+some taylor series stuff happens here
 $$
 E_{n} = \frac{1}{2} h^2 \phi''_{n}
 $$

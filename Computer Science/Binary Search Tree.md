@@ -8,7 +8,7 @@ A [[Binary Tree]] where left nodes are less than the parent and right nodes are 
 
 ##### contains()
 * Best Case
-	* Shortest Tree Possible with n nodes -> [[Complete]]
+	* Shortest Tree Possible with n nodes -> [[Computer Science/Complete]]
 	* $O(\log(n))$
 * Worst Case
 	* Longest Tree Possible with n nodes -> [[Degenerate]]

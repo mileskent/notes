@@ -74,7 +74,5 @@ $$
 ## Correspondence Principle
 Einstein's Field Equations reduce to Newton's Law of Gravity in the weak-field and slow-motion limit.
 # See also
-[[Event Horizon]]
-[[Critical Density]]
 [[Einstein's Field Equations]]
 [[Inertial Reference Frame]]

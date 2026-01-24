@@ -48,12 +48,6 @@ T'(t) = -k(T(t) - T_\text{ambient})
 T(t)=(T_0  -  T_\text{ambient})e^{-kt} +  T_\text{ambient}
 $$
 
-## Well Stirred Solution
-#todo
-
-## Basketball
-#todo
-
 # Maximum Interval of Existence
 The maximal interval of existence refewrs to the largest interval over which a solution to an initial value problem (IVP) of a differential equation is defined and unique.
 

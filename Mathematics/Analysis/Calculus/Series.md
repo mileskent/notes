@@ -8,4 +8,4 @@ A sum of a [[Sequence]].
 * [[Power Series]]
 * [[Taylor Series]]
 * [[Maclaurin Series]]
-* [[Fourier Series]]
+* [[Mathematics/Analysis/Calculus/Fourier Series]]
