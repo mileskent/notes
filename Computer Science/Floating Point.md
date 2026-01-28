@@ -1,5 +1,7 @@
 ---
 date: 2025-01-07
+aliases:
+  - FP
 ---
 A method for representing [[Fractional Binary]] values.
 

@@ -1,3 +1,6 @@
+---
+date: 2026-01-28
+---
 The Navier-Stokes equations are a set of [[Partial Differential Equation]]s that describe almost all fluid dynamics. They describe how the velocity, pressure, temperature, and density of a moving fluid are related.
 # Incompressible Navier Stokes Equations
 For incompressible fluids; if one part of the fluid is displaced, the opposite side is also displaced equally and instantly. Incompressibility means constant density $\rho$.
