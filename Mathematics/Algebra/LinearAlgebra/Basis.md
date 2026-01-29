@@ -3,7 +3,7 @@ date: 2026-01-11
 ---
 
 
-A [[Set]] of [[Basis Vector]]s. A set of [[Linear Independence|Linearly Indepedent]] [[Vector]]s whose [[Linear Combination]]s can represent any vector in that space.
+A [[Mathematics/SetTheory/Set|Set]] of [[Basis Vector]]s. A set of [[Linear Independence|Linearly Indepedent]] [[Vector]]s whose [[Linear Combination]]s can represent any vector in that space.
 
 [[Standard Basis Vectors]] in $\mathbb{R}^3$ are i, j, k, but you can use other vectors to span the same amount of space if you want.
 

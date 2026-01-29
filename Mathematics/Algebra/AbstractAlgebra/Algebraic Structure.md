@@ -2,7 +2,7 @@
 date: 2025-12-13
 ---
 
-An nonempty [[Set]] that possesses [[Operation]]s which satisfy [[Axiom]]s. It is a kind of [[Mathematical Structure|Structure]]
+An nonempty [[Mathematics/SetTheory/Set|Set]] that possesses [[Operation]]s which satisfy [[Axiom]]s. It is a kind of [[Mathematical Structure|Structure]]
 * [[Algebraic Field]]
 * [[Vector Space]]
 * [[Group]]
