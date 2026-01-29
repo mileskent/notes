@@ -1,5 +1,7 @@
 ---
 date: 2025-01-07
+aliases:
+  - Context Switching
 ---
 * Grab attention of processor
 	* Preemptive: external interrupt, like timer
