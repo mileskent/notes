@@ -1,0 +1,1 @@
+A [[Kernel]] where everything runs in one priviledged kernel space.

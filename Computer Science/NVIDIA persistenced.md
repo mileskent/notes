@@ -1,0 +1,1 @@
+`nvidia-persistenced` prevents [[Driver]] cold start. It is a userspace [[daemon]] that maintains a persistent connection to the NVIDIA GPU [[Device File]]s, preventing the GPU drivers from unloading and tearing down the GPU state when no other applications are using it. It is basically a dummy client that keeps the drivers engaged.
