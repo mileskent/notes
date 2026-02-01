@@ -1,3 +1,6 @@
+---
+date: 2026-02-01
+---
 A kernel module is an [[Object File]] that can be dynamically loaded in and out of the [[Kernel]] without rebooting.
 * Kernel modules allow [[Monolithic Kernel]]s (like [[Linux]]) to dynamically add kernel functionality, e.g. a keyboard is plugged in, without recompiling the entire kernel
 * All [[Driver]]s are Kernel Modules, but not all Kernel Modules are Drivers

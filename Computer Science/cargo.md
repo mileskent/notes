@@ -1,3 +1,6 @@
+---
+date: 2026-02-01
+---
 
 *Cargo* is the official [[Rust]] [[Package Manager]] and build system that orchestrates fetching dependencies, [[Compiler|compiling]] code, and distributing libraries.
 * **`cargo new <name>`**: Creates a new Rust project directory containing a `Cargo.toml` manifest and a boilerplate "Hello, World!" source file

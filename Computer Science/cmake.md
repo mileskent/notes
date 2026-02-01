@@ -1,3 +1,6 @@
+---
+date: 2026-02-01
+---
 CMake is an open-source, cross-platform family of tools designed to build, test, and package software using compiler-independent configuration files. It is basically the de facto build tool for [[C++]].
 * CMake is a meta-build system. It does not build the project directly; instead, it generates the native build scripts, like Ninja files, [[make|Makefiles]], or Visual Studio solutions)
 

@@ -1,3 +1,6 @@
+---
+date: 2026-02-01
+---
 `nvidia-dkms` is a version of the NVIDIA proprietary graphics driver that uses [[Dynamic Kernel Module Support]] 
 * `dkms status`
 	* Check if the NVIDIA module is successfully installed and for which kernels. |

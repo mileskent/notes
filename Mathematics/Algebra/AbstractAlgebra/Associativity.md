@@ -1,5 +1,7 @@
 ---
 date: 2025-12-13
+aliases:
+  - Associative
 ---
 
 $$
