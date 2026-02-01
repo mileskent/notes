@@ -15,11 +15,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
-        uses: konstfish/quartz-build-action@v6
+        uses: konstfish/quartz-build-action@v7
         with:
           source: ./
-          page_title: "Math Notes"
-          quartz_config: .github/quartz/quartz.config.ts
+          page_title: "Notes"
+          quartz_repo: https://github.com/mileskent/quartz.git
+          quartz_repo_ref: v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
