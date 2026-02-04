@@ -3,7 +3,7 @@ date: 2026-01-11
 aliases:
   - Continuous
 ---
-In layman's terms, when a [[Function]] can be drawn without "picking up the pen".
+In layman's terms, when a [[Computer Science/Architecture/Function]] can be drawn without "picking up the pen".
 
 $$
 \begin{gathered}

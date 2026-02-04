@@ -2,7 +2,7 @@
 date: 2026-01-11
 ---
 ![[Pasted image 20251225190208.png|200]]
-An infinite [[Series]] representing a [[Function]], expressed in terms of the function's derivatives at a single point. It allows complex functions to be approximated by [[Polynomial]]s.
+An infinite [[Series]] representing a [[Computer Science/Architecture/Function]], expressed in terms of the function's derivatives at a single point. It allows complex functions to be approximated by [[Polynomial]]s.
 
 If a function $f(x)$ is infinitely differentiable at a point $a$, the Taylor series centered at $x = a$ is the following:
 $$

@@ -3,4 +3,4 @@ aliases:
   - Object
 date: 2025-12-12
 ---
-An abstract concept in math. Objects include numbers, [[Set|sets]], [[Function|functions]], etc.
+An abstract concept in math. Objects include numbers, [[Set|sets]], [[Mathematics/SetTheory/Function|functions]], etc.

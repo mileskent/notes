@@ -1,0 +1,21 @@
+---
+date: 2025-01-07
+---
+An [[Computer Science/Data Structures/Algorithm]] for a [[Computer Science/Data Structures/Graph]]
+* [[Graph Algorithm]]
+	* [[Traversal Algorithm]]
+		* [[Depth First Search]]
+		* [[Breadth First Search]]
+		* [[Preorder Traversal]]
+		* [[Inorder Traversal]]
+		* [[Postorder Traversal]]
+		* [[Levelorder Traversal]]
+	* [[Shortest Path Algorithm]]
+		* [[Dijkstra's Algorithm]]
+		* [[Uniform Cost Search]]
+		* [[A*]]
+		* [[Bellman-Ford Algorithm]]
+		* [[Floyd-Warshall Algorithm]]
+	* [[Minimum Spanning Tree Algorithm]]
+		* [[Prim's Algorithm]]
+		* [[Kruskal's Algorithm]]

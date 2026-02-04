@@ -6,6 +6,13 @@ Hi 😺. Welcome to my notes. They are mostly based on coursework that I have ta
 My site's homepage is [here](https://mileskent.github.io)
 
 * [[Computer Science]]
+	* [[Architecture]]
+	* [[Computational Science]]
+	* [[Data Structure]]
+	* [[Computer Graphics]]
+	* [[Network|Computer Networking]]
+	* [[Organization]]
+	* [[Computer Science Theory]]
 * [[Mathematics]]
 	* [[Algebra]]
 		* [[Abstract Algebra]]
@@ -32,3 +39,8 @@ My site's homepage is [here](https://mileskent.github.io)
 	* [[Mathematics/Topology/Topology|Topology]]
 		* [[Geometry]]
 * [[Physics]]
+	* [[Electromagnetism]]
+	* [[Mechanics]]
+	* [[Nuclear Physics]]
+	* [[Quantum Mechanics]]
+	* [[General Relativity]]

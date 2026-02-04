@@ -22,7 +22,7 @@ The study of [[Set]]s, which are collections of distinct objects.
 ![[Number]]
 
 # Functions
-![[Function]]
+![[Mathematics/SetTheory/Function]]
 
 ![[Domain]]
 
