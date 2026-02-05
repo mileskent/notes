@@ -1,24 +1,27 @@
 ---
 date: 2025-12-12
 ---
-
-# Eigenvectors and Eigenvalues
-Given
-1. A is square
-2. $A\vec{v}$ defined, e.g. if $A \in \mathbb{R}^{n\times n}$ then $\vec{v} \in \mathbb{R}^n$
+# Eigenvector
+In [[Linear Algebra]], an [[#Eigenvector]] is a [[Coordinate Vector]] for which, applying the given [[Linear Transformation]] has the same effect as multiplying that vector by a scalar. In other words, vectors for which the [[Codomain|Output Space]] of the given linear transformation is proportional to the [[Domain|Input Space]].
+* Let $A$ be a [[Square Matrix]] that represents a linear transformation. 
+* Let $\vec{v}$ be some [[Coordinate Vector]] that we need to solve for.
+* Let $\lambda$ be some [[Scalar]] that we need to solve for.
+* By solving the following equation, we find eigenstuff
 $$
 A\vec{v} = \lambda\vec{v}
 $$
-## Eigenvector
-$\vec{v}$ is an **eigenvector** for $A$
-An eigenvector is a vector solution $\vec{v}$ to the above equation, such that the linear transformation of $A$ has the same result as scaling the vector by $\lambda$.
+* Eigenvalues are nonzero scalar values $\lambda$ that solve the equation
+* Eigenvectors are coordinate vectors $\vec{v}$ that solve the equation
+* Eigenspaces are the spaces that extend from the eigenvectors (the [[Span|spans]] of the eigenvectors)
+* Each eigenvector has a corresponding eigenvalue, i.e. each eigenvector has a specific amount that the linear transformation scales it by
+* The following GIF shows a linear transformation scaling 2D space. The red lines are the eigenspaces of the transformation. Any coordinate vector part of those spaces is an eigenvector.
 
-## Eigenvalue
-$\lambda$ is the corresponding **eigenvalue** ($\lambda\in \mathbb{C}$)
-$A \vec{v} = \lambda \vec{v} \implies \det(A - \lambda I) = 0$
-Solve for $\lambda$ in $\det(A-\lambda I)=0$, which yields the [[Characteristic Equation]] for this system, e.g. in a 2D systems it is $\lambda^2 -\text{tr}A \cdot \lambda + \det A = 0$. In a 3D+ system, you still have to create the characteristic equation but it requires [[]]
+![[eigenstuff.gif|300]]
 
-Notes:
+# Eigenvalue
+$\lambda$ is an **eigenvalue** for the transformation
+* $A \vec{v} = \lambda \vec{v} \implies \det(A - \lambda I) = 0$
+* Solve for $\lambda$ in $\det(A-\lambda I)=0$, which yields the [[Characteristic Equation]] for this system, e.g. in a 2D systems it is $\lambda^2 -\text{tr}A \cdot \lambda + \det A = 0$.
 - $\lambda > 0 \implies A\vec{v}, \vec{v}$ point same direction
 - $\lambda < 0 \implies A\vec{v}, \vec{v}$ point opposite direction
 - $\lambda$ can be complex even if nothing else in the equation is
