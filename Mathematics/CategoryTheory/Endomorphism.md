@@ -1,4 +1,4 @@
 ---
 date: 2025-12-12
 ---
-An [[Endo]]-[[Morphism]] of an [[Mathematical Object|Object]] is a [[Morphism]] where the [[Domain]] and [[Codomain]] are identical [[Set]]s
+An [[Endo]]-[[Morphism]] is an [[Morphism|Arrow]] ([[Morphism]]) from an [[Mathematical Object|Object]] to itself.

@@ -35,10 +35,14 @@ where there is a definition for
 
 # Examples of Categories
 ## The Category of Proofs
-#todo
+* Objects: [[Proposition|Propositions]]
+* Arrows: [[Proof|Proofs]]
 ## Set Categories
-#todo
-## Vector Space Categories
-#todo
+* Objects: [[Set|Sets]]
+* Arrows: [[Mathematics/SetTheory/Function|Functions]]
 ## [[Functional|Functional Programming]] Type Categories 
-#todo
+* Objects: [[Data Type]]
+* Arrows: [[Computer Science/Function|Function]]
+## Vector Space Categories
+- Objects: [[Vector Space|Vector Spaces]]
+- Arrows: [[Linear Transformation]]
