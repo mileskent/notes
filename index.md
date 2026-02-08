@@ -1,10 +1,14 @@
 ---
 title: Welcome!
 ---
-Hi 😺. Welcome to my notes. They are mostly based on coursework that I have taken at Georgia Tech, but also from external resources such as MIT OCW, YT, and textbooks I have read.
+Hi 😺, Welcome to my notes. 
 
-My site's homepage is [here](https://mileskent.github.io)
+There are about 2000 of them at this point, spanning a variety of topics, the structure of which it shown below.
 
+* My site's homepage is [here](https://mileskent.github.io)
+* The source for these notes can be found [here](https://github.com/mileskent/notes)
+
+# Topics
 * [[Computer Science]]
 	* [[Architecture]]
 	* [[Computational Science]]
