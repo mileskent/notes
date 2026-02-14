@@ -3,7 +3,7 @@ title: Welcome!
 ---
 Hi 😺, Welcome to my notes. 
 
-There are about 2000 of them at this point, spanning a variety of topics, the structure of which it shown below.
+There are about 2000 of them at this point, spanning a variety of topics, the structure of which is shown below.
 
 * My site's homepage is [here](https://mileskent.github.io)
 * The source for these notes can be found [here](https://github.com/mileskent/notes)
@@ -12,6 +12,7 @@ There are about 2000 of them at this point, spanning a variety of topics, the st
 * [[Computer Science]]
 	* [[Architecture]]
 	* [[Computational Science]]
+		* [[Digital Signal Processing]]
 	* [[Data Structure]]
 	* [[Computer Graphics]]
 	* [[Network|Computer Networking]]
@@ -38,7 +39,7 @@ There are about 2000 of them at this point, spanning a variety of topics, the st
 		* [[Numerical Differential Equations]]
 		* [[Numerical Linear Algebra]]
 	* [[Set Theory]]
-	* [[Signal Processing]]
+	* [[Digital Signal Processing]]
 	* [[Statistics]]
 	* [[Mathematics/Topology/Topology|Topology]]
 		* [[Geometry]]
