@@ -5,6 +5,8 @@ Hi 😺, Welcome to my notes.
 
 There are about 2000 of them at this point, spanning a variety of topics, the structure of which is shown below.
 
+Use **Ctrl K** to toggle search!
+
 * My site's homepage is [here](https://mileskent.github.io)
 * The source for these notes can be found [here](https://github.com/mileskent/notes)
 
