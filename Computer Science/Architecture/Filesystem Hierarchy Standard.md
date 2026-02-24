@@ -64,11 +64,12 @@ See [[#UsrMerge]], i.e. `lib -> usr/lib, lib64 -> usr/lib64`
 * `/run` is a temporary storage area for system data that has accumulated during the runtime of the OS since the last boot. It stores [[Process ID|PID]]s and [[Socket]]s. It also holds information about logged-in users and temporary network settings.
 
 # Magic
-* `/proc` is a window into the [[Linux Kernel]] that essentially acts as a [[File]]-driven API. Instead of some special command to query some information from the kernel, you can simply just read a particular file in `/proc` to get that information. Proc is readonly, because it is just an interface for querying the kernel.
+* `/proc` is a window into the [[Linux Kernel]] that essentially acts as a [[File]]-driven API for either querying information from the kernel, or requesting the kernel to do something. Instead of some special command to query some information from the kernel, you can simply just read a particular file in `/proc` to get that information. Because `/proc` is magic, the [[inode|inodes]] located there are posers! They are ephermeral, exist only in RAM, and are generated on-demand.
 	* e.g.  `/proc/1234/` contains information about [[Process]] number 1234
 	* e.g. `/proc/cpuinfo` contains information about the [[CPU]]
-	* e.g. `/proc/meminfo` contain informationn about [[RAM]] usage
-* `/sys` stores a structures view of every piece of hardware connected to the machine. Unlike, proc, sys alows you the *change* thing by writing the files.
+	* e.g. `/proc/meminfo` contain information about [[RAM]] usage
+	* e.g. `/proc/sys` can be written to tune kernel configuration
+* `/sys` stores a structures view of every piece of hardware connected to the machine. Unlike, `/proc`, `/sys` alows you the *change* thing by writing the files. Unlike `/proc/sys`, `/sys` is for hardware interaction, whereas the former is for kernel interaction.
 
 # Misc
 * `/var` is used for holding persistent data. "Variable".
