@@ -22,9 +22,9 @@ A spatial fourier transform. Spatial frequency $k$ is the conjugate of position 
 > F(k) \equiv \int^{\infty}_{-\infty} f(x) \exp(-ikx)\ dx
 > $$
 
-> [!tip]- Derivation from [[Mathematics/SignalProcessing/Fourier Series]]
+> [!tip]- Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > Let $F(m) \equiv \mathbb{E}_m - i\ \mathbb{O}_{m}$ 
-> where these values are defined in [[Even Function]] and [[Odd Function]] and also [[Mathematics/SignalProcessing/Fourier Series]]
+> where these values are defined in [[Even Function]] and [[Odd Function]] and also [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > $$
 > \begin{align} \\
 > F(m) \equiv
@@ -43,7 +43,7 @@ $$
 f(t) = \frac{1}{2 \pi}  \int^{\infty}_{{-\infty}} F(\omega) \ e^{-i \omega t} d \omega
 $$
 
-> [!tip]- Derivation from [[Mathematics/SignalProcessing/Fourier Series]]
+> [!tip]- Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > Note that the $i$ gets factored in for consistency with the above derivation.
 > $$
 > \begin{aligned}

@@ -18,7 +18,7 @@ $$
 \iiint_{E} f(r, \theta, z)\cdot r\ dr\ d\theta\ dz
 $$
 * where the [[Jacobian#Jacobian Determinant]] $\det J_{f} = r$
-* where $r$ is the distance of a point's $xy$ [[Projection]] from the origin
+* where $r$ is the distance of a point's $xy$ [[Mathematics/Analysis/Calculus/Projection]] from the origin
 * where $\theta$ is the angle of the point from the positive $x$ axis
 * where $z$ is the amount a point lies in the positive $z$ direction
 * where $x = r\cos \theta,\ y = r\sin \theta,\ z = z$

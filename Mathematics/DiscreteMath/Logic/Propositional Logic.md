@@ -51,11 +51,13 @@ Examples:
 | T   | F        |
 | F   | T        |
 
+### Conjunction
 A **conjunction** of $p$ and $q$ is the statement "p and q"
 * it is denoted as $p \land q$
 * same as &&
 * **Both** p and q must be true for $p \land q$ to be true
 
+### Disjunction
 A **disjunction** of p and q is the statement "p or q"
 * it is denoted as $p \lor q$
 * it is same as ||
@@ -70,6 +72,7 @@ Examples:
 > 2. Find $\neg p \land q$
 > Ronnie does not have 3 cats and Ronnie does CrossFit
 
+### XOR
 The **exclusive or** of p and q is the statement p XOR q
 * $p \oplus q$
 * Same as ^
@@ -77,26 +80,15 @@ The **exclusive or** of p and q is the statement p XOR q
 * $p \oplus q = (p \lor q) \land \neg(p \land q)$
 
 # Conditionals & More!
+### Implication
 Let p and q be propositions
-* A statement in the form "if p, then q" is called a **conditional statement**
+* A statement in the form "if p, then q" is called a **conditional statement** / **implication**
 * written as $p \implies q$
 * False when p is true and q is false, otherwise true
 * p is called the hypothesis, sufficient condition
 * q is called the conclusion or the necessary condition
 * if sufficient condition happens, then the necessary condition *must* happen
-
-### Truth Tables: $p \land q, p \lor q, p \oplus q, p \implies q$
-- List all possible combinations of truth values
-- If $n$ is the # of unique prop vars, then there are $2^n$ rows in the truth table
-
-| p   | q   | $p \land q$ | $p \lor q$ | $p \oplus q$ | $p \implies q$ |
-| --- | --- | ----------- | ---------- | ------------ | ----------------- |
-| T   | T   | T           | T          | F            | T                 |
-| T   | F   | F           | T          | T            | F                 |
-| F   | T   | F           | T          | T            | T                 |
-| F   | F   | F           | F          | F            | T                 |
-
-### $p \implies q$
+#### $p \implies q$
 - if p, then q
 - if p, q
 - p is sufficient for q
@@ -111,6 +103,18 @@ Let p and q be propositions
 - q is necessary for p
 - q follows from p
 - q provided that p
+
+### Truth Tables: $p \land q, p \lor q, p \oplus q, p \implies q$
+- List all possible combinations of truth values
+- If $n$ is the # of unique prop vars, then there are $2^n$ rows in the truth table
+
+| p   | q   | $p \land q$ | $p \lor q$ | $p \oplus q$ | $p \implies q$ |
+| --- | --- | ----------- | ---------- | ------------ | ----------------- |
+| T   | T   | T           | T          | F            | T                 |
+| T   | F   | F           | T          | T            | F                 |
+| F   | T   | F           | T          | T            | T                 |
+| F   | F   | F           | F          | F            | T                 |
+
 
 ### Converses, Inverses, Contrapositives
 Given $p \implies q$
