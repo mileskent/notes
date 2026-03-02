@@ -1,7 +1,7 @@
 ---
 date: 2025-01-07
 ---
-The idea of this technique, in the example of two sum, for example, on a sorted array, is to start two pointers at the minimum and maximum of the array. When the current sum is too large, we shift the right pointer left, which will increase the sum. When the current sum is too small, we shift the left pointer right, which will increase the sum. 
+The idea of this technique, in the example of [[1. Two Sum]], for example, on a sorted array, is to start two pointers at the minimum and maximum of the array. When the current sum is too large, we shift the right pointer left, which will increase the sum. When the current sum is too small, we shift the left pointer right, which will increase the sum. 
 
 O(n) time and O(1) space
 
