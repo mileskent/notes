@@ -20,6 +20,8 @@ QuickSort has many variations and the one detail here is **randomized inplace q
 	* Random pivot has fastest average time
 * ***Note that the index of the pivot once it is put back into place is the final index for the pivot***
 	* This is because the current pass of QuickSort puts all smaller elements to the left of the pivot and all greater elements to the right of the pivot. Because of this, even though the left and right subarrays are not neccessarily sorted, the pivot is.
+### Hoare Partitioning
+The method used in the quicksort algorithm to divide an array into two parts based on a pivot element. It uses two pointers that move towards each other, swapping elements that are on the wrong side of the pivot, which helps in efficiently sorting the array.
 ### Evaluation
 QuickSort degenerates into something similar to [[Selection Sort]] for its worst case.
 Sorted input actually makes this algorithm worse. It is as antithetical to being adaptive as possible.
