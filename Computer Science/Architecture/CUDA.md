@@ -77,11 +77,18 @@ A thread is the smallest execution unit
 ## Warp
 Warps are inside of blocks are parllelize 32 threads (or whatever the warp size is).
 - Instructions are issued to warps that then tell the threads what to do (not directly sent to threads)
-The total number of warps in a block is
+
+The total number of warps in a block is:
+
 $$
 \left\lceil  \frac{T_{B}}{S_{W}}  \right\rceil 
-$$where $T_{B}$ is the threads per block, defined below in [[#Block]]
-where $S_{W}$  is the size of a warp, which is usually 32
+= (T_{B} + S_{W} - 1) / S_{W}
+$$
+
+* where $T_{B}$ is the threads per block, defined below in [[#Block]]
+* where $S_{W}$  is the size of a warp, which is usually 32
+
+See [[Integer Ceil Divide]]
 ## Block
 A group of threads that can communicate and synchronize with each other.
 * Threads within the same block can share data quickly using [[#Shared Memory]] and synchronize their execution using `__syncthreads()`
