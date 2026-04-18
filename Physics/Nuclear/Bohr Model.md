@@ -1,7 +1,7 @@
 ---
 date: 2025-02-03
 ---
-of the [[Atom]]
+of the [[Physics/Nuclear/Atom]]
 1. Electrons reside in *stationary states* and do *not* radiate energy. They have well-defined energies: $E_{n}$ where $n \in\mathbb{Z}^+$
 	Transitions can occur between them yielding light of energy: $E = E_{n} - E_{n'} = h \nu$
 	where $E_{n} < E_{n'}$ is aborption and $E_{n} > E_{n'}$ is emission

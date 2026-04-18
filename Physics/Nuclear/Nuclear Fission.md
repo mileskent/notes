@@ -1,7 +1,7 @@
 ---
 date: 2025-02-03
 ---
-Colliding a particle with a *large* [[Atom|atomic]] nucleus resulting in
+Colliding a particle with a *large* [[Physics/Nuclear/Atom|atomic]] nucleus resulting in
 * Break apart a large nucleus like Uranium
 * Release of potential energy
 ![[Pasted image 20250418144707.png|300]]

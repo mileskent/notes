@@ -15,5 +15,3 @@ For example, the function that adds one to its input:
 $$
 \lambda x.x+1
 $$
-
-![[Currying]]

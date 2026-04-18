@@ -1,7 +1,7 @@
 ---
 date: 2025-02-03
 ---
-A combinations of [[Atom|atoms]]. An important question then is: why do molecules form from atoms?
+A combinations of [[Physics/Nuclear/Atom|atoms]]. An important question then is: why do molecules form from atoms?
 
 Actually solving the [[Schrödinger Wave Equation]] for molecules is hard to do analytically. Therefore, we use approximation methods to analyze the quantum interactions on more of a vibe basis, i.e. they are numerical computer-based methods.
 ### Molecular Potential
@@ -14,9 +14,9 @@ $$
 $$
 ### Why Molecules Form
 Spherically symmetrical atoms are totally neutral, and therefore do not form molecules. 
-* This symmetry is described by having a full [[Atom#Closed Shells and Subshells|electron shell]]. 
+* This symmetry is described by having a full [[Physics/Nuclear/Atom#Closed Shells and Subshells|electron shell]]. 
 * The noble gases are symmetrical in this way, and indeed do not form molecules. 
-* Most atoms are not spherically symmetrical, see the first figure in [[Atom]]
+* Most atoms are not spherically symmetrical, see the first figure in [[Physics/Nuclear/Atom]]
 ##### Dipole Force
 Even though both atoms are neutral in a sense, they experience an induced attraction, kind of like the simplest case of [[Electrostatics|induced polarity in Electrostatics]].
 ![[Pasted image 20250402125405.png|200]]

@@ -1,7 +1,7 @@
 ---
 date: 2025-02-03
 ---
-Colliding two *small* [[Atom|atomic]] nuclei together can result in
+Colliding two *small* [[Physics/Nuclear/Atom|atomic]] nuclei together can result in
 * A larger, combined nucleus
 * Even more energy than [[Nuclear Fission]]
 * With even more energy (10s of millions Kelvin) can create an even more powerful nuclear weapon, i.e. a fusion bomb (hydrogen bomb if powered by hydrogen)
