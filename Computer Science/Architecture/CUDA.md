@@ -1,7 +1,8 @@
 ---
 date: 2025-01-07
 ---
-A proprietary [[GPGPU]] programming platform made by NVIDIA, that provides an interface with the GPU through a superset of [[C++]]
+A proprietary [[GPGPU]] programming platform made by NVIDIA, that provides an interface with the GPU through a superset of [[C++]]. Heavily used in both [[High Performance Computing]] and [[Real Time Computing]].
+
 The specific features are not defined by an [[Architecture]], but by the specific [[Hardware]]. Therefore, CUDA is not hardware-agnostic and must take into account the hardware it is running on.
 
 This is the official reference: [https://docs.nvidia.com/cuda/](https://docs.nvidia.com/cuda/)

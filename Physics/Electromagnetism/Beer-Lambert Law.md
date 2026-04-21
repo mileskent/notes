@@ -1,6 +1,7 @@
 ---
 date: 2025-02-03
 ---
+In [[Optics]], the Beer-Lambert Law describes the [[Physics/Electromagnetism/Attenuation|Attenuation]] of [[Light]] as it propogates, as an equation.
 $$
 I(z) = I_{0} e^{-\alpha z}
 $$
