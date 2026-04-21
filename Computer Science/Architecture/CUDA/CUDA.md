@@ -1,12 +1,16 @@
 ---
 date: 2025-01-07
 ---
-A proprietary [[GPGPU]] programming platform made by NVIDIA, that provides an interface with the GPU through a superset of [[C++]]. Heavily used in both [[High Performance Computing]] and [[Real Time Computing]].
+A proprietary [[GPGPU]] programming platform made by NVIDIA, that provides an interface with the GPU through a superset of [[C++]] or a superset of [[Fortran]]. Heavily used in both [[High Performance Computing]] and [[Real Time Computing]]. Has a robust library ecosystem.
 
 The specific features are not defined by an [[Architecture]], but by the specific [[Hardware]]. Therefore, CUDA is not hardware-agnostic and must take into account the hardware it is running on.
 
-This is the official reference: [https://docs.nvidia.com/cuda/](https://docs.nvidia.com/cuda/)
+If you use features like CUTLASS, CuTE, thrust, etc. CUDA can become an [[Array Programming Language]], which is ideal when working with [[Tensor]]s.
+
+This is the official reference: [https://docs.nvidia.com/cuda/](https://docs.nvidia.com/cuda/) 
+
 This is a good reference: [https://github.com/Infatoshi/cuda-course/](https://github.com/Infatoshi/cuda-course/)
+
 # Typical CUDA Program
 1. CPU allocates CPU memory
 2. CPU copies data to GPU
@@ -15,6 +19,25 @@ This is a good reference: [https://github.com/Infatoshi/cuda-course/](https://gi
 
 Kernel looks like a serial program; says nothing about parallelism. Imagine you are trying to solve a jigsaw puzzle and all you are given is the location of each puzzle piece. The high level algorithm would be designed to take these individual pieces, and solve a single problem for each of them; “put the piece in the correct spot”. As long as all the pieces are assembled in the right place at the end, it works! You don't need to start at one corner and work your way across the puzzle. You can solve multiple pieces at the same time, as long as they don't interfere with each other.
 
+# CUDA Ecosystem Libraries
+* amgx
+* cub
+* cuBLAS
+* cuFFT
+* cuFile
+* cuNumeric
+* cuRAND
+* cuSOLVER
+* cuSPARSE
+* cuTENSOR
+	* cuTENSORMg
+* CUTLASS
+	* CuTe
+* libcu++
+* NCCL
+* NPP
+* NVSHMEM
+* Thrust
 # Kernel
 A GPU [[Computer Science/Architecture/Function|Subroutine]].
 

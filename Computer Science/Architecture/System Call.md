@@ -1,7 +1,9 @@
 ---
 date: 2025-01-07
+aliases:
+  - syscall
 ---
-* The system call is the fundamental interface between a [[Program]] and the [[Linux Kernel]]
+* The system call (syscall) is the fundamental interface between a [[Program]] and the [[Linux Kernel]]
 * Generally not invoked directly, but rather via [[glibc]] wrapper functions
 
 # Linux Syscall Table
