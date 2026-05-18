@@ -13,4 +13,4 @@ See [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/) and [ANSI C
 | [[C Boolean]]           | [[C Preproccessor Directive]] | [[C Struct]]              | [[C Union]]                                              |
 | [[C Array]]             | [[Function Pointer]]        | [[C Aliases]]             | [[C Main]]                                               |
 | [[C Memory Layout]]     | [[C Scope]]                   | [[C Variable Management]] | [[C const]]                                              |
-| [[C Variadic Function]] | [[Signal]]                    |                           |                                                          |
+| [[C Variadic Function]] | [[Computer Science/Architecture/Signal]]                    |                           |                                                          |
