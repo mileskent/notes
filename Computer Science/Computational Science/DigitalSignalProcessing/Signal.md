@@ -49,11 +49,7 @@ $$
 x[n] = 1 \cdot \delta[n] + 2 \cdot \delta[n-1] + 3 \cdot \delta[n-2]
 $$
 ### Sifting Property 
-You can also use the delta function to "sift" out the output of a signal at a given $n_{0}$
-
-$$
-\sum_{n=-\infty}^{\infty} x[n]\ \delta[n-n_{0}] = x[n_{0}]
-$$
+![[Sampling#Sifting Property]]
 ## Discrete Step Function
 The [[Heaviside Step Function]] but it is a [[#Discrete-Time Signal]]. 
 
@@ -69,6 +65,6 @@ $$
 A signal is **periodic** if it repeats its pattern exactly over and over again at regular, predictable intervals.
 
 A discrete signal $x[n]$ is periodic iff
-$$\exists N, n \in \mathbb{Z},\ s.t.\ x[n + N] = x[n]$$
+$$\exists N \in \mathbb{Z}^+,\ s.t.\ x[n + N] = x[n],\ \forall n \in \mathbb{Z}$$
 
 This is important because a function in continuous-time can be periodic, but if that period is not an integer, then it is not neccessarily periodic in discrete-time! Alternatively, if a function's period is an integer, it will be period in both continuous, and discrete-time (assuming step = 1).
