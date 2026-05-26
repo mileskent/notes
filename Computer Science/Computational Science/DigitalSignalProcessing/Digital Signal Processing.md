@@ -10,22 +10,32 @@ aliases:
 ![[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]]
 
 ## Sampling
-#todo
+![[Sampling]]
 
+## Band
+![[Band]]
 ## Windowing
 #todo
+
 
 # Transforms & Analysis
 #todo
 
 # Digital Filtering
-#todo
+![[Filter]]
+
+![[Finite Impulse Response Filter|FIR Filter]]
+
+![[Infinite Impulse Response Filter|IIR Filter]]
+
 
 # Modulation
 #todo
 
+
 # Estimation & Modeling
 #todo
+
 
 # Miscellaneous
 #todo

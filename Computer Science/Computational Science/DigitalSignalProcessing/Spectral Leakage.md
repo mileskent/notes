@@ -1,0 +1,4 @@
+---
+date: 2026-05-25
+---
+Spectral leakage is a phenomenon where energy from a specific frequency "leaks" into adjacent frequencies when a [[Fourier Transform]] is applied to a finite [[Sampling|Sample]] of a [[Signal]], that is, if you "cutoff" a part of a signal by [[Windowing]] it using [[rect]] as the windowing function. This distortion is a downstream effect of abruptly cutting off the signal function before you transform it. By converting the original signal into the same exact waveform but with interpolation to zero on the edges of the window, you are self-containing the input to the transform, meaning that the transform won't have those nasty distortions. [[Windowing#Hann Window]], [[Windowing#Hamming Window]], and [[Windowing#Blackman Window]] are all different flavors of achieving this edge tapering.
