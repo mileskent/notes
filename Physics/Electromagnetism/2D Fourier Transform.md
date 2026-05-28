@@ -8,8 +8,8 @@ $$
 \int \int f(x,y) \exp(-i(k_{x}x + k_{y}y))\ dx\ dy
 \end{align}
 $$
-See 
-	[[K Vector]]
-	[[Wave]]
-	[[Fraunhofer Diffraction]]
-	
+# See Also
+* [[Fourier Transform]]
+* [[K Vector]]
+* [[Wave]]
+* [[Fraunhofer Diffraction]]

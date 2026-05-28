@@ -29,15 +29,11 @@ An odd signal is a signal whose underlying function is an [[Odd Function]]
 ## Discrete Delta Function
 The [[Kronecker Delta Function]] but it is a [[#Discrete-Time Signal]]. 
 ### Impulse Representation
-Because the delta function is 1 at its center, and 0 everywhere else, you can composed scaled delta functions to create a given signal.
+![[Impulse]]
 
-For example, the following is a DT signal that goes: 1, 2, 3.
-
-$$
-x[n] = 1 \cdot \delta[n] + 2 \cdot \delta[n-1] + 3 \cdot \delta[n-2]
-$$
 ### Sifting Property 
 ![[Sampling#Sifting Property]]
+
 ## Discrete Step Function
 The [[Heaviside Step Function]] but it is a [[#Discrete-Time Signal]]. 
 

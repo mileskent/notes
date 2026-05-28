@@ -11,7 +11,16 @@ $$
 (f * g)(t) = \int^{t}_{0}f(t-s)g(s)\ ds
 $$
 ![[Convolution_of_spiky_function_with_box2.gif]]
-Because a convolution is a product, it is commutative:
+
+# Commutative Property
 $$
 f * g = g * f
+$$
+# Associative Property
+$$
+g*(h*x) = (g*h)*x
+$$
+# Distributive Over Addition
+$$
+h*x_{1}+h*x_{2}=h*(x_{1}+x_{2})
 $$

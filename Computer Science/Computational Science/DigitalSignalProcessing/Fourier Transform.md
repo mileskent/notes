@@ -8,7 +8,7 @@ A [[Gaussian]]'s transform is another Gaussian.
 * Frequency is conjugate to time
 * Spatial frequency is conjugate to position
 Anytime the Fourier Transform is involved, so is the [[Scale Theorem]], and the [[Uncertainty Principle]]
-##### Equation
+# Equation
 $$
 F(\omega) = \int^{\infty}_{{-\infty}} f(t)\ e^{-i \omega t} dt
 $$
@@ -16,13 +16,13 @@ $$
 * $f(t)$ lives in the time domain
 * $F(\omega)$ lives in the frequency domain
 
-> [!tip]- With respect to space
+> [!tip]+ Fourier Transform with respect to space
 A spatial fourier transform. Spatial frequency $k$ is the conjugate of position $x$. 
 > $$
 > F(k) \equiv \int^{\infty}_{-\infty} f(x) \exp(-ikx)\ dx
 > $$
 
-> [!tip]- Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
+> [!tip]+ Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > Let $F(m) \equiv \mathbb{E}_m - i\ \mathbb{O}_{m}$ 
 > where these values are defined in [[Even Function]] and [[Odd Function]] and also [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > $$
@@ -38,12 +38,22 @@ A spatial fourier transform. Spatial frequency $k$ is the conjugate of position 
 > F(\omega) = \int^{\infty}_{{-\infty}} f(t)\ e^{-i \omega t} dt
 > $$
 
-##### Inverse Equation
+> [!tip]+ Fourier Transform of the Complex Conjugate of a Function
+>$$
+>\mathcal{F}(f^*(t)) = F^*(\omega) = F^*(-\omega)
+>$$
+
+> [!tip]+ Fourier Transform of the Sum of Two Functions
+>$$
+>\mathcal{F}(a \cdot f(t) + b \cdot g(t)) = a \mathcal{F}(f(t)) + b \mathcal{F}(g(t))
+>$$
+
+# Inverse Equation
 $$
 f(t) = \frac{1}{2 \pi}  \int^{\infty}_{{-\infty}} F(\omega) \ e^{-i \omega t} d \omega
 $$
 
-> [!tip]- Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
+> [!tip]+ Derivation from [[Computer Science/Computational Science/DigitalSignalProcessing/Fourier Series]]
 > Note that the $i$ gets factored in for consistency with the above derivation.
 > $$
 > \begin{aligned}
@@ -80,12 +90,12 @@ $$
 > \end{aligned}
 > $$
 
-> [!tip]- With respect to space 
+> [!tip]+ Fourier Tranform with respect to space 
 > $$
 > f(x) = \frac{1}{2\pi} \int^{\infty}_{-\infty} F(k) \exp(ikx) dk
 > $$
 
-## Notation
+# Notation
 If original function lowercase, use above notation
 * $f(t)$ for the function
 * $F(\omega)$ for the transform
@@ -95,7 +105,7 @@ If the original function is uppercase:
 	* $\mathcal{F}\left(E(t)\right)$ 
 	* $\tilde{E}(\omega)$
 
-### Examples
+# Examples
 > [!example]- Find $\mathcal{F}(\text{rect}(t))$
 > $$
 > \begin{align} \\
@@ -109,18 +119,16 @@ If the original function is uppercase:
 > $$
 See [[sinc]] for more info
 
-### Fourier Transform of the Complex Conjugate of a Function
-$$
-\mathcal{F}(f^*(t)) = F^*(\omega) = F^*(-\omega)
-$$
-### [[Scale Theorem]]
+# Theorems
+## Scale Theorem
+![[Scale Theorem]]
 
-### [[Modulation Theorem]]
+## Modulation Theorem
+![[Modulation Theorem]]
 
-### Fourier Transform of the Sum of Two Functions
-$$
-\mathcal{F}(a \cdot f(t) + b \cdot g(t)) = a \mathcal{F}(f(t)) + b \mathcal{F}(g(t))
-$$
-### [[Shift Theorem]]
+## Shift Theorem ![[Shift Theorem]]
+## Convolution Theorem
+![[Convolution Theorem]]
 
-### [[2D Fourier Transform]]
+# 2D Fourier Transform
+![[2D Fourier Transform]]

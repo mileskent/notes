@@ -14,12 +14,26 @@ aliases:
 
 ## Band
 ![[Band]]
+
 ## Windowing
-#todo
+![[Windowing]]
+
+## Quantization
+![[Quantization]]
 
 
-# Transforms & Analysis
-#todo
+# Transforms
+## Fourier Transform
+![[Fourier Transform]]
+
+### Discrete Fourier Transform
+![[Discrete Fourier Transform]]
+### Fast Fourier Transform
+![[Fast Fourier Transform]]
+
+## Z Transform
+![[Z Transform]]
+
 
 # Digital Filtering
 ![[Filter]]
