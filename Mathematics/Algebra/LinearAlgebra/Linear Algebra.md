@@ -37,7 +37,7 @@ Linear Algebra is the study of [[Vector Space|Vector Spaces]]
 
 ![[Characteristic Equation]]
 
-![[Similar]]
+![[Mathematics/Algebra/LinearAlgebra/Similar]]
 
 # Systems of Linear Equations
 ![[Linear System]]
