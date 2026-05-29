@@ -1,13 +1,13 @@
 ---
 date: 2026-02-14
 ---
-In [[Signal Processing]], an *IQ signal* refers result of decomposing a carrier wave into in-phase and quadrature signals. *IQ data* refers to information about how to modulate the amplitudes of the I and Q components of the signal over time.
+In [[Signal Processing]], an *IQ signal* refers result of decomposing a [[Carrier Wave]] into in-phase and quadrature signals. *IQ data* refers to information about how to modulate the amplitudes of the I and Q components of the signal over time.
 # Motivation
 When we recieve a signal, we receive a single codomain value. This is a problem because for sinusoids, there can be multiple x values per y value. This is bad because we cannot determine the phase of the incoming wave, which means that we lose the information that is holds. In the case of radar, the doppler of the target.
 
 Solution: Measure the cosine and sine at the same time. This eliminates the ambiguity.
 # IQ Modulation
-The carrier wave signal $s(t)$ is WLOG a cosine, can be decomposed into an IQ signal. Use the [[Cosine Sum Identity]].
+The [[Carrier Wave]] signal $s(t)$ is WLOG a cosine, can be decomposed into an IQ signal. Use the [[Cosine Sum Identity]].
 
 $$
 \begin{align*}
