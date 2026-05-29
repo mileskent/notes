@@ -1,7 +1,7 @@
 ---
 date: 2025-10-01
 ---
-
+# Algorithms by Category
 * [[Sorting Algorithms]]
 	- [[Bubble Sort]]          
 	- [[Cocktail Shaker Sort]] 
@@ -35,3 +35,20 @@ date: 2025-10-01
 	* [[Minimum Spanning Tree Algorithm]]
 		* [[Prim's Algorithm]]
 		* [[Kruskal's Algorithm]]
+* [[Scheduling Algorithm]]
+	* [[Scheduling Algorithm#First Come First Serve]]
+	* [[Scheduling Algorithm#Shortest Remaining Time First]]
+	* [[Scheduling Algorithm#Round Robin]]
+	* [[Scheduling Algorithm#Priority]]
+	* [[Scheduling Algorithm#Shortest Job First]]
+* [[Replacement Algorithm]]
+	* [[Replacement Algorithm#Belady's Min]]
+	* [[Replacement Algorithm#Random Algorithm]]
+	* [[Replacement Algorithm#FIFO]]
+	* [[Replacement Algorithm#Least Recently Used (LRU)]]
+	* [[Replacement Algorithm#Second Chance]]
+* Miscellaneous Algorithms
+	* [[Fast Fourier Transform]]
+
+# Algorithm Qualia
+* [[Greedy Algorithm]]
