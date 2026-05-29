@@ -1,3 +1,6 @@
+---
+date: 2026-05-28
+---
 A *Complex Matrix* is a [[Matrix]] for which all entries are [[Complex Number|Complex Numbers]]
 
 $$

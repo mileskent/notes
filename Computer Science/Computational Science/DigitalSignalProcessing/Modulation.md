@@ -1,3 +1,6 @@
+---
+date: 2026-05-28
+---
 
 *Modulation* is the process of embuing a signal inside a [[Carrier Wave]] in order to convey information through that wave.
 # Analog Modulation

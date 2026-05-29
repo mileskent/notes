@@ -38,11 +38,6 @@ aliases:
 # Digital Filtering
 ![[Filter]]
 
-![[Finite Impulse Response Filter|FIR Filter]]
-
-![[Infinite Impulse Response Filter|IIR Filter]]
-
-
 # Modulation
 ![[Modulation]]
 

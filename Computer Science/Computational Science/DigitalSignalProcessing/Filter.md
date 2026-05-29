@@ -1,7 +1,7 @@
 ---
 date: 2026-05-25
 ---
-Altering the amplitude, frequency, or phase characteristics of a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] in order to pass *desired* characteristics while attenuating *undesired* ones.
+A medium through which a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] propogates that alters its amplitude, frequency, or phase characteristics, in order to pass *desired* characteristics while attenuating *undesired* ones.
 
 # Basic Filter Types
 ## Low-Pass Filter
@@ -16,7 +16,7 @@ Altering the amplitude, frequency, or phase characteristics of a [[Computer Scie
 ## Band-Stop Filter
 ![[Band-Stop Filter]]
 
-# Building a Filter
+# Impulse Response Filters
 ## Finite Impulse Response Filter
 ![[Finite Impulse Response Filter]]
 ## Infinite Impulse Response Filter

@@ -3,7 +3,6 @@ date: 2026-05-27
 aliases:
   - DFT
 ---
-# DFT Equation
 $$
 X[k] = \sum_{n=0}^{N-1} x[n]\cdot \omega_{N}^{nk}\\
 $$
@@ -13,6 +12,7 @@ $$
 * where $N$ is the number of [[Sampling#Sample|samples]] in the [[Discrete-Time Signal|DT signal]] $x$
 * where $k$ is the $k^\text{th}$ frequency bin, representing an area of frequencies in the frequency domain centered around $\frac{kf_{s}}{N}$, where $f_{s}$ is the [[Sampling#Sampling Frequency]]
 * where $X$ is a [[Complex Number]]
+* where the input is assumed to be periodic with period $N$
 
 # Time Complexity
 The [[Time Complexity]] of calculating the Discrete Fourier Transform as a [[#Matrix Discrete Fourier Transform|Matrix product]] or by equivalently calculating each [[Dot Product]] per $k$ without [[Matrix|matrices]] is $O(n^2)$, where the DFT Matrix $W$ is a [[Square Matrix]]
@@ -56,7 +56,7 @@ $$
 $$
 \begin{align}
 \text{Let } W &\in \mathbb{C}^{N \times N}\ s.t.\ W_{i,j} = \omega_{N}^{ij}\\
-X &= W \vec{x}
+\vec{X} &= W \vec{x}
 \end{align}
 $$
 * where $W$ is called the "DFT Matrix"
