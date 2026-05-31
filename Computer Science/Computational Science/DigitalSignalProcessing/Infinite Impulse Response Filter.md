@@ -3,6 +3,8 @@ date: 2026-05-31
 aliases:
   - IIR Filter
 ---
+An *Infinite Impulse Response Filter* is a kind of [[Filter]] whose [[Impulse Response]] never becomes zero, or in other words, the duration of response to the [[Impulse|Impulse Signal]] is **infinite**. This property is due to such filters being recursively defined, i.e. having [[Feedback]].
+
 $$
 \begin{matrix}
 \mathcal{H}:\mathbb{R}^\mathbb{Z} \times \mathbb{R}^\mathbb{Z} \times \mathbb{Z} \to \mathbb{R} \\

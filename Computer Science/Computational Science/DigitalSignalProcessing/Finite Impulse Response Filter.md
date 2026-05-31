@@ -3,6 +3,8 @@ date: 2026-05-31
 aliases:
   - FIR Filter
 ---
+A *Finite Impulse Response Filter* is a kind of [[Filter]] whose [[Impulse Response]] eventually becomes zero, or in other words, the duration of response to the [[Impulse|Impulse Signal]] is **finite**. This property is due to such filters being [[Feed-Forward]].
+
 $$
 \begin{matrix}
 \mathcal{H}:\mathbb{R}^\mathbb{Z} \times \mathbb{Z} \to \mathbb{R} \\

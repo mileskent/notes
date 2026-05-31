@@ -17,6 +17,8 @@ A medium through which a [[Computer Science/Computational Science/DigitalSignalP
 ![[Band-Stop Filter]]
 
 # Impulse Response Filters
+## Impulse Response
+![[Impulse Response]]
 ## Finite Impulse Response Filter
 ![[Finite Impulse Response Filter]]
 ## Infinite Impulse Response Filter
