@@ -1,7 +1,9 @@
 ---
 date: 2025-02-03
 ---
-Supposed that a light source 
+The [[Doppler Effect]] + [[Special Relativity]]
+
+Suppose that a light source 
 * emits $N$ waves during the proper time interval $T_{0}'$, which is the time observed from the moving light source
 * For $T_{0}'$ in the light source's frame, the stationary observer experiences coordinate time $T$
 ($T = \gamma\ T_{0}'$ from [[Lorentz Transformation]])

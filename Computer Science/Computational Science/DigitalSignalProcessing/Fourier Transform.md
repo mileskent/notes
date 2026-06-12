@@ -1,9 +1,9 @@
 ---
 date: 2025-02-03
 ---
-An approach for computing what frequencies are present in a [[Wave]], in particular the [[Spectrum]], entirely from its dependence on time.
+An approach for computing what frequencies are present in a [[Wave]], in particular the [[Frequency Spectrum]], entirely from its dependence on time.
 Allows us to transform a function between time an frequency domains.
-Allows us to quantitivatively define the [[Spectrum]] of a [[Wave]]
+Allows us to quantitivatively define the [[Frequency Spectrum]] of a [[Wave]]
 A [[Gaussian]]'s transform is another Gaussian.
 * Frequency is conjugate to time
 * Spatial frequency is conjugate to position

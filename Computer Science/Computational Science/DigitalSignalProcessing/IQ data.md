@@ -6,6 +6,14 @@ In [[Signal Processing]], an *IQ signal* refers result of decomposing a [[Carrie
 When we recieve a signal, we receive a single codomain value. This is a problem because for sinusoids, there can be multiple x values per y value. This is bad because we cannot determine the phase of the incoming wave, which means that we lose the information that is holds. In the case of radar, the doppler of the target.
 
 Solution: Measure the cosine and sine at the same time. This eliminates the ambiguity.
+
+# IQ Sample
+Though RF input, is an [[Analog Signal]], IQ data, by virtue of being discrete, is inherently a result of [[Sampling]]. Hence, each datum is a sample. 
+
+$$
+x[n] = I[n] + j \cdot Q[n]
+$$
+
 # IQ Modulation
 The [[Carrier Wave]] signal $s(t)$ is WLOG a cosine, can be decomposed into an IQ signal. Use the [[Cosine Sum Identity]].
 

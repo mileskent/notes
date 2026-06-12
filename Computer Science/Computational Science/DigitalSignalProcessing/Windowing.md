@@ -1,5 +1,7 @@
 ---
 date: 2026-05-25
+aliases:
+  - Window
 ---
 Windowing is when you multiply a [[#Window Function]] by a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] to extract a finite "window" of it.
 

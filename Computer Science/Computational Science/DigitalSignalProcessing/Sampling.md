@@ -1,5 +1,6 @@
 ---
 date: 2026-05-21
+aliases:
 ---
 Sampling is the process of converting an [[Computer Science/Computational Science/DigitalSignalProcessing/Signal#Analog Signal]] into a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal#Discrete-Time Signal]] by only measuring / *sampling* its amplitude at discrete intervals of time.
 
@@ -43,4 +44,7 @@ For example, you can use some kind of interpolation algorithm to fill in the gap
 ## Aperature Error
 #todo
 ## Impedance Mismatching
+#todo
+
+# Decimation
 #todo

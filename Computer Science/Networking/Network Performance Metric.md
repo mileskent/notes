@@ -18,7 +18,7 @@ T_{W} = \frac{\text{Message Size}}{\text{Network Bandwidth}}
 $$
 
 > [!Warning]
-> * Message size is often in bytes, whereas [[Bandwidth|Network Bandwidth]] is often in bits.
+> * Message size is often in bytes, whereas [[Computer Science/Networking/Bandwidth|Network Bandwidth]] is often in bits.
 > * When Network Bandwidth is listed as K or M or G, it is powers of 10, not 2
 ## Transmission Time
 aka "End-to-end latency"

@@ -11,6 +11,7 @@ $$
 	* $\omega_{N}^{2a} = \omega^{a}_{N / 2},\ a \in \mathbb{N}$
 * where $N$ is the number of [[Sampling#Sample|samples]] in the [[Discrete-Time Signal|DT signal]] $x$
 * where $k$ is the $k^\text{th}$ frequency bin, representing an area of frequencies in the frequency domain centered around $\frac{kf_{s}}{N}$, where $f_{s}$ is the [[Sampling#Sampling Frequency]]
+	* the spacing between bins is $\Delta f = \frac{f_s}{N}$, called the *bin width*
 * where $X$ is a [[Complex Number]]
 * where the input is assumed to be periodic with period $N$
 
@@ -64,3 +65,9 @@ $$
 $$
 x[n] = \frac{1}{N}\sum_{k=0}^{N-1} X[k] \cdot \omega_{N}^{-nk}
 $$
+
+# Power Spectrum
+![[Power Spectrum]]
+
+# FFT Shift
+![[FFT Shift]]
