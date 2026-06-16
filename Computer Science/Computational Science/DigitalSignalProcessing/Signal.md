@@ -26,24 +26,12 @@ An even signal is a signal whose underlying function is an [[Even Function]]
 An odd signal is a signal whose underlying function is an [[Odd Function]]
 
 # Special Signals
-## Discrete Delta Function
-The [[Kronecker Delta Function]] but it is a [[#Discrete-Time Signal]]. 
-### Impulse Representation
-![[Impulse]]
+## Unit Sample
+![[Unit Sample]]
 
-### Sifting Property 
-![[Sampling#Sifting Property]]
+## Unit Step
+![[Unit Step]]
 
-## Discrete Step Function
-The [[Heaviside Step Function]] but it is a [[#Discrete-Time Signal]]. 
-
-## Moving between the Step and Delta Functions
-$$
-\begin{align}
-\delta[n] &= u[n] - u[n-1]\\
-u[n] &= \sum_{k=-\infty}^{n} \delta[k]
-\end{align}
-$$
 
 # Periodicity
 A signal is **periodic** if it repeats its pattern exactly over and over again at regular, predictable intervals.

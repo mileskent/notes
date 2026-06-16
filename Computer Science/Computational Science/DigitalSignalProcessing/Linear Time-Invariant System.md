@@ -1,7 +1,7 @@
 ---
 date: 2026-05-27
 ---
-A *Linear Time-Invariant* (LTI) System a [[Linear Transformation]] where shifting time in the input signal shifts the time everywhere in the output signal by the same amount.
+A *Linear Time-Invariant* (LTI) [[System]] is a [[Linear Transformation]] that has [[Shift-Invariance|Time Invariance]]
 
 **Linear Transformation**
 
@@ -18,4 +18,5 @@ $$
 T(x[n-n_{0}]) = y[n-n_{0}]
 $$
 
-See [[Shift-Invariance]], which is the same as this.
+
+The subclass of LTI systems expressible as a finite-order recurrence relation with constant coefficients is described by a [[Linear Constant Coefficient Difference Equation]].

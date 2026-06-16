@@ -12,6 +12,8 @@ $$
 $$
 
 
+The discrete-time analog is the [[Z Transform]], related by $z = e^{sT}$ where $T$ is the [[Sampling|sampling interval]].
+
 The Laplace transform is an integral transform, so it abides by all the properties of integrals.
 $$
 \mathcal{L}\{Cf(t)\} = 

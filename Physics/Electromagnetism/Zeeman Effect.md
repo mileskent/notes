@@ -13,6 +13,6 @@ $$
 \mu_{z} = - \frac{e}{2m} L_{z} = - \frac{e}{2m} (m_{l}\hbar) = -\mu_{B}m_{l}
 \quad\quad\text{where } \mu_{B} = \frac{e\hbar}{2m}
 $$
-See [[Operator#Angular Momentum Operator]]. $\mu_{B}$ is called the *Bohr magneton*
+See [[Physics/Quantum/Operator#Angular Momentum Operator]]. $\mu_{B}$ is called the *Bohr magneton*
 
 * An electron with angular momentum gnerates a magnetic field, which has lower energy when aligned antiparallel to an applied magnetic field than when aligned parallel to it.

@@ -36,7 +36,7 @@ $$
 Note how the signal is now the sum of a In-Phase cosine and a Quadrature sine, where the sine and cosine have no phase shift, because all of the phase information of the original wave is encoded in the I and Q amplitudes. By modulating the amplitudes of the cosine and sine wave through the I and Q amplitudes, we can replicate the original signal.
 
 ## Complex Phasor
-Based on this conclusion we can also infer that the signal is analogous to a phasor in the [[Complex Number|Complex Plane]].
+Based on this conclusion we can also infer that the signal is analogous to a phasor in the [[Complex Plane]].
 
 $$
 s(t) \cong I(t) + j Q(t)

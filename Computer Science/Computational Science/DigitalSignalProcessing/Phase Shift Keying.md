@@ -1,4 +1,4 @@
 ---
 date: 2026-05-28
 ---
-#todo
+A [[Modulation]] scheme that encodes a [[Digital Signal]] by keying the **phase** of an analog [[Carrier Wave]] to one of a finite set of discrete values, one per [[Symbol]].

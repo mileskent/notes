@@ -7,3 +7,5 @@ $$
 0 & n \not = m
 \end{cases}
 $$
+
+The [[Analog Signal|Continuous-Time]] analog is the [[Dirac Delta Function]].

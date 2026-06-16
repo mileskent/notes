@@ -16,3 +16,5 @@ $$
 $$
 \int^{\infty}_{-\infty} \delta(t-a)f(t) dt = f(a)
 $$
+
+The [[Discrete-Time Signal|Discrete-Time]] analog is the [[Kronecker Delta Function]], used as the [[Impulse]] in DSP.

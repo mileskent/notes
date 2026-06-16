@@ -1,5 +1,7 @@
 ---
 date: 2022-12-15
+aliases:
+  - Integration
 ---
 The continous sum of infinitesimal areas under a [[Computer Science/Architecture/Function]], over a definite or indefinite range.
 

@@ -1,8 +1,14 @@
 ---
 date: 2026-05-27
+aliases:
+  - Time Invariance
 ---
-*Shift-Invariance* means that a delay can be applied either before or after a system, and produce the same result. 
+*Shift-Invariance* means that a delay can be applied either before or after a system, and produce the same result; shifting in the input signal shifts everywhere in the output signal by the same amount.
 
+# TLDR Definition
+$$
+T(x[n-n_{0}]) = y[n-n_{0}]
+$$
 # Formal Definition
 Let $\Delta$ be a $n_{0}$-step delay [[Filter]] for some fixed by delay $n_{0} \in \mathbb{N}$, where $\vec{0} \in \mathbb{R}^{1 \times n_{0}}$
 

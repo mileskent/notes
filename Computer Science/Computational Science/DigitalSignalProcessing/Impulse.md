@@ -1,7 +1,7 @@
 ---
 date: 2026-05-27
 ---
-In [[Discrete-Time Signal|Discrete-Time]] land, an Impulse $\delta[n]$ is a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] that is a discrete [[Kronecker Delta Function]]
+In [[Discrete-Time Signal|Discrete-Time]] land, an Impulse $\delta[n]$ is a [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] that is the [[Unit Sample]]
 
 $$
 \begin{align}
