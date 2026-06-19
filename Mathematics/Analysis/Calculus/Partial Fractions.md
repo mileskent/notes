@@ -1,5 +1,7 @@
 ---
 date: 2022-12-15
+aliases:
+  - Partial Fraction Decomposition
 ---
 $$
 \frac{5x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}

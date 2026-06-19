@@ -3,7 +3,7 @@ date: 2026-05-31
 aliases:
   - IIR Filter
 ---
-An *Infinite Impulse Response Filter* is a [[Linear Time-Invariant System]] [[Filter]] whose [[Impulse Response]] never becomes zero, or in other words, the duration of response to the [[Impulse|Impulse Signal]] is **infinite**. This property is due to such filters being recursively defined, i.e. having [[Feedback]].
+An *Infinite Impulse Response Filter* is a [[Linear Time-Invariant System]] [[Filter]] whose [[Impulse Response]] never becomes zero, or in other words, the duration of response to the [[Impulse|Impulse Signal]] is **infinite**. This property is due to such filters being recursively defined, i.e. having [[Feedback]] (technically you could get the same recursive effect in a [[Feed-Forward]] system if it was infinitely long, but practically speaking, IIR means Feedback; its kind of like [[Compiler Optimization#Loop Unrolling|loop unrolling]] a [[Recursion|Recursive]] function and calling it non-recursive). 
 
 $$
 \begin{matrix}
@@ -14,6 +14,7 @@ y[n] = \sum^M_{k=0} b_{k}\ x[n - k] - \sum^N_{k=1} a_{k} \cdot y[n-k] \\ \\
 $$
 * Because IIR Filters are Feed-Back
 	* They are is inherently iterative and thus better suited for the [[CPU]], rather than [[GPU]] which is where [[Finite Impulse Response Filter|FIR]] belongs
+		* High order systems can be decomposed into parallel low order systems, however.
 	* [[Caching]] becomes even more important
 	* They can be [[Divergent]], which can lead to [[Overflow]]. Thus, [[Stability]] needs to be considered
 
@@ -35,3 +36,4 @@ $$
 h[n] = \sum^N_{k=1} A_{k}(d_{k})^n\ u[n]
 $$
 * See [[Impulse Response]]
+

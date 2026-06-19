@@ -2,6 +2,7 @@
 date: 2026-03-02
 aliases:
   - Monotonic
+  - Monotonicity
 ---
 A *Monotonic Function* is a [[Mathematics/SetTheory/Function|Function]] that is non-strictly either increasing or decreasing.
 

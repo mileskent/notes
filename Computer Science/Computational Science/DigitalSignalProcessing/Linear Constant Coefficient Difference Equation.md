@@ -4,7 +4,7 @@ aliases:
   - LCCDE
   - LCCD Equation
 ---
-A Linear Constant Coefficient Difference [[Equation]] (LCCDE) describes a class of [[System|systems]] that are a [[Linear Time-Invariant System]], causal, and expressible as a finite-order recurrence relation. Constant coefficients imply [[Shift-Invariance|Time Invariance]].
+A Linear Constant Coefficient Difference [[Equation]] (LCCDE) describes a class of [[System|systems]] that are a [[Linear Time-Invariant System]], [[Causality|causal]], and expressible as a finite-order recurrence relation. Constant coefficients imply [[Shift-Invariance|Time Invariance]].
 
 # Representations
 There are many ways to represent an LCCDE system. Each representation has its own advantages.
@@ -17,6 +17,11 @@ Using a [[Difference Equation]] is mathematically precise and compact, but lacks
 $$
 y[n] = x[n] - x[n-1]
 $$
+## Operator Polynomial Equation
+Using [[Linear Unary Operator#Operator Notation]] is as mathematically precise as the [[#Difference Equation]], while being even more compact. The algebraic form admits standard polynomial operations: factoring, root finding, partial fraction decomposition, etc. without requiring sample-by-sample reasoning. This form is extremely useful, as it enables the powerful tools of algebra to intuitively be applied to systems. Its strength is abstraction. Note that the order of the polynomial corresponds to the order of the system.
+$$
+Y=(1-\mathcal{R})X
+$$
 ## Block Diagram
 Using a [[Block Diagram]] is good for conveying the step-by-step procedure of a system, like a circuit schematic, but is potentially unintuitive in expressively conveying ultimate effect of the system and requires tracing to understand.
 ```tikz
@@ -26,7 +31,7 @@ Using a [[Block Diagram]] is good for conveying the step-by-step procedure of a 
     \node (in) {$x[n]$};
     \node [draw, circle, right=2.5cm of in] (sum) {$+$};
     \node [right=2.5cm of sum] (out) {$y[n]$};
-    \node [draw, rectangle, below=1.5cm of sum] (delay) {Delay};
+    \node [draw, rectangle, below=1.5cm of sum] (delay) {$\mathcal{R}$};
     \node [draw, isosceles triangle, isosceles triangle apex angle=60, left=1cm of delay] (neg) {$-1$};
 
     \draw [->] (in) -- (sum);

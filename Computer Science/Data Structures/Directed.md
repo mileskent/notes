@@ -1,5 +1,7 @@
 ---
 date: 2025-01-07
+aliases:
+  - Digraph
 ---
 * A *Directed* [[Computer Science/Data Structures/Graph]] (digraph) has all [[Edge|edges]] encoding direction
 	* Bidirectional edges are the same as undirected edges
