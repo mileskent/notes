@@ -1,4 +1,4 @@
 ---
 date: 2026-01-28
 ---
-A [[Mathematics/SetTheory/Set]] of [[Mathematics/SetTheory/Function]]s between two fixed sets.
+A [[Mathematics/Set Theory/Set]] of [[Mathematics/Set Theory/Function]]s between two fixed sets.

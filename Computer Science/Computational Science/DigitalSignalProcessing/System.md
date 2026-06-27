@@ -1,1 +1,0 @@
-A *System* is analogous to a [[Mathematics/SetTheory/Function|Function]]; it takes an input, and produces an output. Specifically, it takes an input [[Computer Science/Computational Science/DigitalSignalProcessing/Signal|Signal]] and produces an output signal.

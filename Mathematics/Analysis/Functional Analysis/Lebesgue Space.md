@@ -1,7 +1,7 @@
 ---
 date: 2026-01-28
 ---
-In [[Functional Analysis]], a *Lebesgue Space*, denoted by $L^p$, where $p > 0$, acts of [measurable](https://en.wikipedia.org/wiki/Measurable_function) [[Mathematics/SetTheory/Function]]s $f$, such that:
+In [[Functional Analysis]], a *Lebesgue Space*, denoted by $L^p$, where $p > 0$, acts of [measurable](https://en.wikipedia.org/wiki/Measurable_function) [[Mathematics/Set Theory/Function]]s $f$, such that:
 $$
 L^p = \left\{f\ \ \bigg\rvert\ \int_{X} |f|^p\ d\mu < \infty\right\}
 $$
