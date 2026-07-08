@@ -1,0 +1,10 @@
+diff a/Computer Science/Theory/Algorithms/Kruskal's Algorithm.md b/Computer Science/Theory/Algorithms/Kruskal's Algorithm.md	(rejected hunks)
+@@ -2,7 +2,7 @@
+ date: 2025-01-07
+ ---
+  A [[Minimum Spanning Tree Algorithm]]
+-* Computing [[Minimum Spanning Tree]] for [[Directed|Undirected]], [[Connected]] [[Computer Science/Data Structures/Graph]]
++* Computing [[Minimum Spanning Tree]] for [[Directed|Undirected]], [[Connected]] [[Computer Science/Theory/Algorithms/Graph]]
+ 	 * If a┬ágraph is not connected,┬áwhat is┬ágenerated is┬áa *Minimum Spanning Forest*
+ 	 * Works with both [[Connected]] and disconnected graphs
+ * [[Greedy Algorithm]]

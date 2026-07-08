@@ -40,7 +40,7 @@ where there is a definition for
 ## Set Categories
 * Objects: [[Set|Sets]]
 * Arrows: [[Mathematics/Set Theory/Function|Functions]]
-## [[Functional|Functional Programming]] Type Categories 
+## [[Functional Programming Language|Functional Programming]] Type Categories
 * Objects: [[Data Type]]
 * Arrows: [[Computer Science/Function|Function]]
 ## Vector Space Categories

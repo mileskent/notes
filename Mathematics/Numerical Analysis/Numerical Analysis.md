@@ -4,4 +4,4 @@ aliases:
   - Numerical
   - Numerical Method
 ---
-The study of [[Computer Science/Data Structures/Algorithm|algorithms]] that solve problems in [[Analysis]], i.e. numerical solutions, often approximately. Often using [[Floating Point]] representations like [[IEEE 754]].
+The study of [[Algorithm|algorithms]] that solve problems in [[Analysis]], i.e. numerical solutions, often approximately. Often using [[Floating Point]] representations like [[IEEE 754]].

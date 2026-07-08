@@ -1,7 +1,7 @@
 ---
 date: 2026-01-11
 ---
-A [[Computer Science/Architecture/Function]] 
+A [[Computer Science/Architecture/Programming Languages/Function]]
 $$
 f : U \subset \mathbb{C} \rightarrow \mathbb{C}
 $$

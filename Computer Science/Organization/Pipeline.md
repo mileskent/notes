@@ -71,7 +71,7 @@ This example is a [[#Structual Hazard]] because there are not enough resources i
 This results in a [[NOOP]] [[#Bubble]] propogating down the pipeline. You can also solve this by adding more hardware.
 ### Bubble
 * [[NOOP]] "Bubbles" propogate through the buffers of pipeline stages downstream of the one taking more than more cycle, during a [[#Pipeline Stall]].
-* A [[Compiler]] will try to optimize the order of expressions to minimize bubbles in the pipeline
+* A [[Computer Science/Architecture/Compilers/Compiler]] will try to optimize the order of expressions to minimize bubbles in the pipeline
 
 # Hazard
 * Hazards result in serialization, aka slowing down

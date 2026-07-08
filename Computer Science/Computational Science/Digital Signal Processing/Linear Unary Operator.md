@@ -5,7 +5,6 @@ A linear unary operator maps a single input [[Computer Science/Computational Sci
 
 # Operator Notation
 All *Linear Unary Operators* can be expressed and manipulated algebraically.
-
 ## Operator Expressions are Operators
 A polynomial expression built from operators is itself a new operator. For example, $X - HX$ can be factored as $(1 - H)X$, which is equivalent to $GX$ where $G = (1 - H)$. The expression $G$ is a new operator that can be applied to any signal, composed with other operators, and manipulated algebraically like any other linear unary operator.
 

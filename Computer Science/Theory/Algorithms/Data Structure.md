@@ -1,0 +1,28 @@
+---
+date: 2025-01-07
+---
+* [[Computer Science/Theory/Algorithms/Graph]]
+	* [[Tree]]
+		* [[Binary Tree]]
+			* [[Binary Search Tree]]
+		* [[AVL]]
+		* [[2-4 Tree]]
+	* [[Linked List]]
+		* [[Singly Linked List]]
+		* [[Doubly Linked List]]
+		* [[Circular Singly Linked List]]
+		* [[Stack]]
+		* [[Queue]]
+		* [[Deque]]
+	* [[SkipList]]
+* [[Array]]
+	* [[ArrayList]]
+	* [[Circular Array List]]
+	* [[Stack]]
+	* [[Queue]]
+	* [[Deque]]
+	* [[Heap]]
+		* [[Binary Heap]]
+	* [[Map]]
+		* [[HashMap]]
+	

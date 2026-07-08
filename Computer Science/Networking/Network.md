@@ -5,7 +5,7 @@ aliases:
 ---
 An assortment of at least two connection points, or [[Node]]s, capable of sharing technology resources via a link
 
-A Network is a [[Computer Science/Data Structures/Graph]]
+A Network is a [[Computer Science/Theory/Algorithms/Graph]]
 
 If the network bits of an [[IP]] address are the same between two devices, they are on the same network.
 

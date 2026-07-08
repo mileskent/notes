@@ -3,7 +3,7 @@ date: 2026-05-21
 ---
 A signal is a way of carrying information from one place to another.
 
-The [[Domain]] of a signal is almost always time. The [[Codomain]] is usually some kind of measure of amplitude, whether it be decibels, voltage, etc. An exception to basic the rule of thumb are inputs involving both space and time, such as sensor data from a satellite or a waymo or something, where the domain is spatiotemporal rather than just temporal, consisting of coordinates and time, and the codomain is some kind of multidimensional representation of color, usually RGBA, rather than a single scalar. Anything involving [[CUDA]], is really signal processing. Anything involving tacit programming, is signal processsing. 
+The [[Domain]] of a signal is almost always time. The [[Codomain]] is usually some kind of measure of amplitude, whether it be decibels, voltage, etc. An exception to basic the rule of thumb are inputs involving both space and time, such as sensor data from a satellite or a waymo or something, where the domain is spatiotemporal rather than just temporal, consisting of coordinates and time, and the codomain is some kind of multidimensional representation of color, usually RGBA, rather than a single scalar. Anything involving [[CUDA]], is really signal processing. Anything involving tacit programming, is signal processsing.
 
 # Levels of Discretization
 ## Analog Signal

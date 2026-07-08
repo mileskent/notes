@@ -1,7 +1,7 @@
 ---
 date: 2026-06-09
 ---
-*Horner's method* is an efficient [[Computer Science/Data Structures/Algorithm|algorithm]] for evaluating a [[Polynomial]] by factoring out $x$ repeatedly, eliminating the need to compute powers of $x$ directly.
+*Horner's method* is an efficient [[Algorithm|algorithm]] for evaluating a [[Polynomial]] by factoring out $x$ repeatedly, eliminating the need to compute powers of $x$ directly.
 
 For example, a cubic polynomial:
 

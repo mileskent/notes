@@ -1,0 +1,10 @@
+diff a/Computer Science/Theory/Algorithms/Prim's Algorithm.md b/Computer Science/Theory/Algorithms/Prim's Algorithm.md	(rejected hunks)
+@@ -14,7 +14,7 @@ date: 2025-01-07
+ 	* Prim's
+ 		* assigns priority based on distance from current node to the next [[Greedy Algorithm|greedy]] vertex
+ 		* returns a [[Minimum Spanning Tree]]
+-* Focuses on [[Connected]] [[Computer Science/Data Structures/Graph]]s
++* Focuses on [[Connected]] [[Computer Science/Theory/Algorithms/Graph]]s
+ * Builds the [[Minimum Spanning Tree]] one [[Vertex]] at a time
+ * If a┬ágraph is not connected,┬áwhat is┬ágenerated is┬áa *Minimum Spanning Forest*
+ * [Vistool](https://csvistool.com/Prim)

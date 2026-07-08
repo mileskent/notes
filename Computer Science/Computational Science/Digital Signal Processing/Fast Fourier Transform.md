@@ -3,7 +3,7 @@ date: 2026-05-25
 aliases:
   - FFT
 ---
-The *Fast Fourier Transform* (FFT) is the de facto [[Computer Science/Data Structures/Algorithm|Algorithm]] for calculating the [[Discrete Fourier Transform]], that reduces the [[Time Complexity]] of the computation to $O(n \log n)$, whereas a regular matrix multiplication is $O(n^2)$. There are many different implementations of the FFT.
+The *Fast Fourier Transform* (FFT) is the de facto [[Algorithm|Algorithm]] for calculating the [[Discrete Fourier Transform]], that reduces the [[Time Complexity]] of the computation to $O(n \log n)$, whereas a regular matrix multiplication is $O(n^2)$. There are many different implementations of the FFT.
 
 # Time Complexity
 The [[Time Complexity]] of the FFT algorithm is $O(n  \log n)$, whereas the naive DFT algorithm is $O(n^2)$. 

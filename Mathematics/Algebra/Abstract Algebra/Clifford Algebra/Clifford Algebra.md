@@ -2,7 +2,7 @@
 date: 2026-06-24
 ---
 
-A *Clifford Algebra* $\mathbb{G}(p, q, r)$ is an [[Associative Algebra]] built from a [[Vector Space]] with a [[Quadratic Form]], defined by the contraction axiom:
+A *Clifford Algebra* $\mathbb{G}(p, q, r)$ is an Associative Algebra built from a [[Vector Space]] with a [[Quadratic Form]], defined by the contraction axiom:
 
 $$\vec{v}^2 = Q(\vec{v})$$
 
