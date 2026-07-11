@@ -29,4 +29,4 @@ Uses reference counting to decide when to free its memory.
 You want to observe an object A managed by a `shared_ptr` without affecting object A's lifetime by observing it.
 It can be copied.
 It can be moved.
-It prevents circular references in [[Computer Science/Theory/Algorithms/Graph]]s
+It prevents circular references in [[Computer Science/Algorithms/Graph]]s

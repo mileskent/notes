@@ -1,4 +1,22 @@
 ---
 date: 2026-01-23
 ---
-The application of [[Mathematics]] to Computers; the study of Computation and its specific methods, tools, [[Mathematical Object]]s, constraints of efficiency, and relation to information.
+The applied side of computing. Covers algorithms, systems, and the design of software and hardware. For the underlying math and theory, see [[Theoretical Computer Science]].
+
+# Topics
+* [[Algorithm]]
+* [[Architecture]]
+	* [[Compiler]]
+	* [[Instruction Set Architecture|ISA]]
+	* [[Operating System]]
+	* [[Programming Language]]
+		* [[Programming Paradigm]]
+		* Languages
+			* [[BQN]], [[C]], [[C++]], [[CUDA]], [[Fortran]], [[Haskell]], [[Java]], [[Lua]], [[Rust]], [[Scala]]
+* [[Computational Science]]
+	* [[Computational Fluid Dynamics]]
+	* [[Computational Geometry]]
+	* [[Digital Signal Processing]]
+* [[Computer Graphics]]
+* [[Network|Computer Networking]]
+* [[Organization|Computer Organization]]
