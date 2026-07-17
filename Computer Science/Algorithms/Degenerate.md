@@ -1,5 +1,7 @@
 ---
 date: 2025-01-07
+aliases:
+  - Degenerate Tree
 ---
 The worst case scenario [[Binary Search Tree]]
 Essentially a [[Linked List]]
