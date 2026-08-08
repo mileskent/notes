@@ -5,7 +5,7 @@ date: 2026-01-23
 The [[Program]] determines which implementation of a [[Member Function]] to call at [[Runtime]].
 * Dynamic Polymorphism results in runtime overhead
 * The way this dynamic lookup is achieved varies by implementation:
-	* Look up the appropriate [[Label]] in a [[Virtual Table|vtable]]
+	* Look up the appropriate [[Label]] in a [[vtable|vtable]]
 	* [[Duck Typing]]
 # Static Polymorphism
 The [[Program]] determines which implementation of a [[Member Function]] to call at [[Compile-Time]].

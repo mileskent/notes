@@ -1,9 +1,8 @@
 ---
 date: 2025-01-07
-tags:
-  - cpp
 ---
-An extension of [[C]], adding lots of syntax and OOP
+An extension of [[C]], adding lots of syntax and OOP, STL
+
 https://en.cppreference.com
 
 # Topic List
@@ -15,7 +14,7 @@ https://en.cppreference.com
 * [[C++ Value Categories]]
 * [[Pointer to Implementation]]
 * [[Virtual Function]]
-* [[Virtual Table]]
+* [[vtable]]
 * [[cmake]]
 * [[xmake]]
 * [[CUDA]]
