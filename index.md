@@ -16,7 +16,7 @@ Use **Ctrl K** to toggle search!
 		* [[Computer Science/Architecture/Compilers/Compiler|Compilers]]
 		* [[Instruction Set Architecture|ISA]]
 		* [[Operating System|Operating Systems]]
-		* [[Programming Language|Programming Languages]]
+		* Programming
 			* Languages
 				* [[BQN]]
 				* [[C]]
@@ -28,9 +28,6 @@ Use **Ctrl K** to toggle search!
 				* [[Lua]]
 				* [[Rust]]
 				* [[Scala]]
-			* [[Programming Paradigm|Programming Paradigms]]
-				* [[Functional Programming Language|Functional Paradigm]]
-				* [[Object Oriented Programming Language|Object Oriented Paradigm]]
 	* [[Computational Science]]
 		* [[Computational Fluid Dynamics]]
 		* [[Computational Geometry]]
@@ -71,6 +68,9 @@ Use **Ctrl K** to toggle search!
 			* [[Lambda Calculus]]
 				* [[Combinatory Logic]]
 				* [[Type Theory]]
+			* [[Programming Paradigm|Programming Paradigms]]
+				* [[Functional Programming Language|Functional Paradigm]]
+				* [[Object Oriented Programming Language|Object Oriented Paradigm]]
 	* [[Mathematics/Topology/Topology|Topology]]
 		* [[Geometry]]
 			* [[Algebraic Geometry]]

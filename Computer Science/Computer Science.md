@@ -9,8 +9,7 @@ The applied side of computing. Covers algorithms, systems, and the design of sof
 	* [[Compiler]]
 	* [[Instruction Set Architecture|ISA]]
 	* [[Operating System]]
-	* [[Programming Language]]
-		* [[Programming Paradigm]]
+	* Programming
 		* Languages
 			* [[BQN]], [[C]], [[C++]], [[CUDA]], [[Fortran]], [[Haskell]], [[Java]], [[Lua]], [[Rust]], [[Scala]]
 * [[Computational Science]]

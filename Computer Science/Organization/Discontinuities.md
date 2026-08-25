@@ -35,7 +35,7 @@ HANDLER:
 * push $k0 onto kernel stack
 * enable interrupts (EI)
 * save processor registers to kernel stack
-* execute device [[Computer Science/Architecture/Programming Languages/Function|Subroutine]], e.g. mouse interrupt
+* execute device [[Computer Science/Architecture/Programming/Function|Subroutine]], e.g. mouse interrupt
 * restore processor registers from kernel stack 
 * disable interrupts
 * pop $k0 from kernel stack
@@ -80,7 +80,7 @@ There is an INT line that will be set to 1 if any one of the connected devices n
 This INT 1 or 0 value will be used to decide whether or not to take the INT macrostate.
 If IE is off ignore INT
 Upon entering INT macrostate, INTA is raised by the [[Microcode]]
-If a device isn't interrupting, it passes through the INT signal, else it asserts its device ID onto the Data bus, so that the [[Control Unit]] can save it to the ETR. Then that value in the ETR is used as an index into the IVT so that the [[Program Counter|PC]] can be set to the beginning of the interrupt [[Computer Science/Architecture/Programming Languages/Function|Subroutine]].
+If a device isn't interrupting, it passes through the INT signal, else it asserts its device ID onto the Data bus, so that the [[Control Unit]] can save it to the ETR. Then that value in the ETR is used as an index into the IVT so that the [[Program Counter|PC]] can be set to the beginning of the interrupt [[Computer Science/Architecture/Programming/Function|Subroutine]].
 ## RETI
 return from exception/trap/interrupt
 atomically enables interrupts and sets the PC to return from the handler 
@@ -101,7 +101,7 @@ Handled by
 ## Interrupts
 ![[Pasted image 20250330143812.png|500]]
 * An I/O device is reporting a completion or an error
-* An *unscripted [[Computer Science/Architecture/Programming Languages/Function|Subroutine]] call*, triggered by an external event
+* An *unscripted [[Computer Science/Architecture/Programming/Function|Subroutine]] call*, triggered by an external event
 * *Supervisor stack*, unique call stack for interrupts, different from user stack
 * Every [[Fetch]], [[LC3]] polls for an interrupt
 * Modifications to the hardware of the datapath and I/O, and additional software to allow an external device to cause the CPU to stop current execution of the original program

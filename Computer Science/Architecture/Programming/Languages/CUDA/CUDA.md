@@ -39,7 +39,7 @@ Kernel looks like a serial program; says nothing about parallelism. Imagine you 
 * NVSHMEM
 * Thrust
 # Kernel
-A GPU [[Computer Science/Architecture/Programming Languages/Function|Subroutine]].
+A GPU [[Computer Science/Architecture/Programming/Function|Subroutine]].
 
 # Host
 The [[CPU]]; uses [[RAM]] on the Motherboard
