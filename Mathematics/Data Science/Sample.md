@@ -1,0 +1,1 @@
+A *Sample* is a [[Subset#Proper Subset]] of a [[Population]].

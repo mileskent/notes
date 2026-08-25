@@ -1,0 +1,1 @@
+*Probability Theory* is the study of predicting [[Sample|Samples]] from [[Population]]

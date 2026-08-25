@@ -1,0 +1,1 @@
+A *Population* is a finite [[Set]] that you want to study.
