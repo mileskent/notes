@@ -10,6 +10,7 @@ aliases:
 	- [[Lambda Calculus]]
 		- [[Combinatory Logic]]
 		- [[Type Theory]]
+	- [[Formal Grammar]]
 	- [[Formal Semantics]]
 	- [[Programming Paradigm]]
 
@@ -22,3 +23,12 @@ Language is a tool of description, and programming languages, tools of descripti
 Now that we have gotten that out of the way, we are ready to dive into the formal definition of a programming language. 
 
 ![[Programming Language]]
+
+# What is Formal Grammar?
+![[Formal Grammar]]
+
+## What is Context-Free Grammar?
+![[Context-Free Grammar]]
+
+## What is Parsing?
+![[Parsing]]

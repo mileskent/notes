@@ -5,7 +5,7 @@
 * Multiple strategies and formulation exists
 * Note [[Curry-Howard Correspondence]] / [[Curry-Howard-Lambek Correspondance]]
 * See also [[Formal Semantics]]
-#### Semantics Example
+## Semantics Example
 This snippet is written in C
 
 ```c

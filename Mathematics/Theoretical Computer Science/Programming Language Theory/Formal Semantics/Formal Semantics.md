@@ -1,5 +1,7 @@
 ---
 date: 2026-07-07
+aliases:
+  - Semantics
 ---
 *Formal Semantics* is the rigorous mathematical study of semantics (meaning) in programming languages.
 

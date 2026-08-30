@@ -2,6 +2,7 @@
 date: 2026-01-28
 ---
 An engineered formal language to define and specify the meaning of [[Program|programs]]
+* A set of strings conforming to a [[Formal Grammar]]
 * Specifies [[Programming Language Syntax|syntax]] and [[Programming Language Semantics|semantics]]
 	* What seperation / level of abstraction between the semantics and syntax should exist?
 	* Programs can "go wrong" (both erroneous or undefined) at either stage
