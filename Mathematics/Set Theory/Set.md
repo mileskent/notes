@@ -41,11 +41,11 @@ A \subseteq B \land B \subseteq A
 $$
 ### Intersection
 $$
-A \cap B = \{x\ |\ x \in A \lor x \in B\}
+A \cap B = \{x\ |\ x \in A \land x \in B\}
 $$
 ### Union
 $$
-A \cup B = \{x\ |\ x \in A \land x \in B\}
+A \cup B = \{x\ |\ x \in A \lor x \in B\}
 $$
 ### Relative Complement
 $$
@@ -67,3 +67,6 @@ $$
 ![[Complement]]
 ### Power Set
 ![[Power Set]]
+
+# Countability
+![[Countable]]
