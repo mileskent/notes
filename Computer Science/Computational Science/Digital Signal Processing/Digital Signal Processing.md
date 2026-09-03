@@ -3,7 +3,7 @@ date: 2026-01-28
 aliases:
   - DSP
 ---
-*Digital Signal Processing* is [[Signal Processing]] in the digital context, where you process [[Computer Science/Computational Science/Digital Signal Processing/Signal#Digital Signal|Digital Signals]].
+*Digital Signal Processing* is [[Signal Processing]] in the digital context, where you process [[Computer Science/Computational Science/Digital Signal Processing/Signal#Digital Signal|Digital Signals]]. It is essentially [[Numerical Analysis]] for Signals.
 
 # Foundations
 ## Signals
