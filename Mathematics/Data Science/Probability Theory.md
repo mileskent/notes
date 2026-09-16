@@ -56,3 +56,19 @@ In order to calculate probabilities, you usually need to determine the cardinali
 
 ![[Conditional Probability]]
 
+
+# Random Variables
+## Random Experiment
+![[Random Experiment]]
+
+## Random Variable
+![[Random Variable]]
+
+## Probability Mass Function
+![[Probability Mass Function]]
+
+## Probability Density Function
+![[Probability Density Function]]
+
+# Cumulative Density Function
+![[Cumulative Density Function]]

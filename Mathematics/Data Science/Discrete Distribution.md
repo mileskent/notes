@@ -1,0 +1,1 @@
+A kind of [[Probability Distribution]] where the [[Sample Space]] $S$ is countable; $|S| \leq \aleph_{0}$
