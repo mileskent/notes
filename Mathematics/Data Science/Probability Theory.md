@@ -72,3 +72,13 @@ In order to calculate probabilities, you usually need to determine the cardinali
 
 # Cumulative Density Function
 ![[Cumulative Density Function]]
+
+
+# Expectations
+## Expected Value
+![[Expected Value]]
+## Variance
+![[Variance]]
+
+# Distributions
+![[Distribution]]

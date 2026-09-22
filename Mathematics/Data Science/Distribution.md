@@ -1,0 +1,12 @@
+* Distribution
+	* [[Discrete Distribution]]
+		* [[Discrete Uniform Distribution]]
+		* [[Discrete Bernoulli Distribution]]
+		* [[Discrete Binomial  Distribution]]
+		* [[Discrete Negative Binomial  Distribution]]
+		* [[Discrete Geometric  Distribution]]
+		* [[Discrete Poisson  Distribution]]
+	* [[Continuous Distribution]]
+		* [[Continuous Uniform Distribution]]
+		* [[Continuous Exponential Distribution]]
+		* [[Continuous Normal Distribution]]

@@ -1,3 +1,9 @@
+---
+aliases:
+  - PDF
+---
+
+
 A *Probability Density Function* is a [[Probability|Probability Function]] for a [[Continuous Distribution]], that is, where the [[Random Variable]] is Continuous. It is called a *density* function, because each probability value doesn't have a value at its exact [[Outcome]], just zero, rather, only continuous ranges of outcomes produce a probability. Just like how a single point in a solid doesn't have a mass, only over a region with a density is there a mass.
 
 * $|S| > \aleph_{0}$
