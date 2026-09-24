@@ -1,4 +1,4 @@
-A kind of [[Discrete Distribution]] where $n$ independent and identically distributed [[Discrete Bernoulli Distribution|Bernoulli]] Trials are performed, counting the total number of "successes" each with [[Probability]] $p$.
+A kind of [[Discrete Distribution]] where $n$ independent and identically distributed [[Discrete Bernoulli Distribution|Bernoulli]] Trials are performed, counting the total number of "successes" after n trials each with [[Probability]] $p$.
 $$
 X \sim \text{Binomial}(n, p)
 $$

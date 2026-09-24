@@ -1,0 +1,1 @@
+An individual event within a [[Poisson Process]]

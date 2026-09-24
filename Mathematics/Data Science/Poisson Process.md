@@ -1,0 +1,1 @@
+A model used to describe events that occur randomly and independently over a continuous interval of time or space at a constant average rate. Poisson Processes are memoryless, meaning that past waiting time between events has no bearing on the probability of future events.

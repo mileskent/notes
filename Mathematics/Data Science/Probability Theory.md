@@ -1,6 +1,6 @@
 *Probability Theory* is the study of predicting [[Sample|Samples]] from [[Population]] ^e39c62
 
-Futhermore, it is essentially applied [[Set Theory]] and [[Combinatorics]].
+Futhermore, it is essentially applied [[Set Theory]] and [[Combinatorics]]. At least on the surface level. It gets its rigor from Measure Theory, believe it or not, even though that is more of a Geometry/Topology adjacent field.
 # Set Theory with Probability
 General [[Set Theory]] applies to probability. There are also special sets within probability theory.
 ## Correspondance to Set Theory
@@ -82,3 +82,7 @@ In order to calculate probabilities, you usually need to determine the cardinali
 
 # Distributions
 ![[Distribution]]
+
+
+# Central Limit Theorem
+![[Central Limit Theorem]]

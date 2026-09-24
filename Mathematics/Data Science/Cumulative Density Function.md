@@ -1,3 +1,9 @@
+---
+aliases:
+  - CDF
+---
+
+
 A *Cumulative Density Function* is just the [[Integral]] of a [[Probability Density Function]] from its lower bound, to a certain point.
 
 $$

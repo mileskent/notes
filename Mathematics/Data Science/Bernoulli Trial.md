@@ -1,0 +1,1 @@
+A random [[Experiment]] involving an event with a binary [[Outcome]]
