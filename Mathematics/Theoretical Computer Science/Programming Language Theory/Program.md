@@ -11,6 +11,7 @@ Programs can take many forms.
 | ADD R6, R6, -1                                                                  | Assembly instruction to decrement                                                              |
 | x = 5                                                                           | Assignment instruction of x as 5                                                               |
 | $f(x, y) = g(x, 5),\ g(x, y) = x^2 + y^2$                                       | Definition and partial application of a function                                               |
+| $a \land  b \implies c$                                                         | [[Propositional Logic]]                                                                        |
 | fib(x) { fib(x - 1) + fib(x - 2) }                                              | Definition of a recursive function                                                             |
 | $E(2) \iff 2=2k,\ s.t. k\in \mathbb{Z},\ 1\in \mathbb{Z} \therefore E(2), \Box$ | Proof that 2 is even                                                                           |
 | $H = \frac{1}{1- \mathcal{R}} = \frac{Y}{X}$                                    | Operator transfer function of an accumulator representative of block diagram / digital circuit |
