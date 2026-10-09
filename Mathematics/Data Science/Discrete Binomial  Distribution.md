@@ -6,4 +6,4 @@ $$
 * $f(x) = \binom{n}{x} p^x q^{n-x} \quad \text{for } x \in \{0..n\}$
 * $E(X) = np$
 * $\text{Var}(X) = npq$
-* $X_{\text{Bin}} = \sum_{n=1}^{r}X_{i}\sim\text{Ber(p)}$
+* $X_{\text{Bin}} = \sum_{i=1}^{n}X_{i}\sim\text{Ber(p)}$
