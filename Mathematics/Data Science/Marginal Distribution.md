@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 The marginal distribution isolates the probability distribution of one variable while ignoring the value of the other variable.
 
 # Discrete Case (Marginal PMF)

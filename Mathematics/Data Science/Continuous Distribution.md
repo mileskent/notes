@@ -1,1 +1,4 @@
+---
+date: 2026-10-15
+---
 A kind of [[Probability Distribution]] where the [[Sample Space]] $S\subseteq \mathbb{R}$, and the distribution is not a [[Discrete Distribution]]. That is, $|S| > \aleph_{0}$ and $P(X=x) = 0$

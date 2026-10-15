@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Discrete Distribution]] for a random experiment where a single Trial has only two possible [[Outcome]]s
 * Success (1) with [[Probability]] $p$
 * Failure (0) with probability $1-p = q$

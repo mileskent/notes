@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A special case of [[#Disjoint Events]].
 $$
 \begin{align}

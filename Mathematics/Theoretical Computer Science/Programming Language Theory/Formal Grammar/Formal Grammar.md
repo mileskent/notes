@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 In *[[Programming Language Theory]]* (and Linguistics) *Formal Grammar* is a precise mathematical system of axioms used to define the [[Programming Language Syntax|Syntax]] of a [[Programming Language]]. 
 
 That is:

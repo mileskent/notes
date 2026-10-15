@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Chebyshev's Inequality* is used to give the [[Probability]] of a [[Sample]] being beyond/within $k$ standard deviations of the mean.
 
 $$

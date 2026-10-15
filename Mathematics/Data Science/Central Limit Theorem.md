@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 The *Central Limit Theorem* states that no matter the shape or distribution of the original data, if you take a large enough random sample, and average the values, those sample averages will form a [[Continuous Normal Distribution|Normal Distribution]]. Furthermore, the sample mean will approach the population mean, and sample mean variance will shrink to 0.
 
 $$

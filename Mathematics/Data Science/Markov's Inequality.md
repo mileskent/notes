@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Markov's Inequality* uses [[Expected Value]] to find the upper bound of the Probability of a nonnegative [[Random Variable]] being at least $c$
 
 $$

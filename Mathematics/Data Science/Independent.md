@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 $$
 \begin{aligned}
 \text{Independent}(A,B) \iff

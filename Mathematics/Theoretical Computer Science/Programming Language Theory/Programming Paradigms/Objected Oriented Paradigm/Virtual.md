@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 In [[Object Oriented Programming Language|OOP]], [[Virtual Function|virtual functions]], denoted by the "virtual" keyword, enable [[Dynamic Dispatch]] at [[Runtime]], and enable overriding the marked function in child classes. 
 
 # Tracing End-to-End

@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-05-27
 ---
 In [[Discrete-Time Signal|Discrete-Time]] land, an Impulse $\delta[n]$ is a [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signal]] that is the [[Unit Sample]]

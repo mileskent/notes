@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 If $A_{1..n}$ for a [[Partition]] of [[Universe]] $S$ and $B$ is any event, then
 
 $$

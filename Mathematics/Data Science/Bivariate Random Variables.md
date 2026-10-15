@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A bivariate random variable $(X, Y)$ models two random variables simultaneously when they are related. 
 
 The joint [[Cumulative Density Function|CDF]] for all BRVs is

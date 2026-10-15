@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2025-12-01
 ---
 [[Mathematics/Set Theory/Quaternion]], but 8D.

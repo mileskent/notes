@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A *Variadic Template Parameter Pack* is a [[C++ Template Metaprogramming|Template Metaprogramming]] pattern in [[C++]] that lets a function accept any number of arguments of any types, resolved at [[Compile-Time]].
 
 # Syntax

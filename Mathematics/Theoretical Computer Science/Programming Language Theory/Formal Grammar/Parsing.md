@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Parsing* is the process of analyzing a string and converting it into a structured hierarchy according to the rules of a specific [[Formal Grammar]]. 
 
 * Parsing

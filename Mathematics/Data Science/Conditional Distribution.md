@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 Given two jointly distributed random variables, the conditional [[Probability Mass Function|PMF]]/[[Probability Density Function|PDF]] of $X$ given $Y = y$ (where $f_Y(y) > 0$) is defined as:
 
 $$f_{X|Y}(x|y) = \frac{f(x,y)}{f_Y(y)}$$

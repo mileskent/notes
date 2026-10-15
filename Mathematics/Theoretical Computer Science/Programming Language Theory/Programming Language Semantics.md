@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 * For a "syntactically valid" program, what is the behavior?
 * How do we mathematically formalize the semantics of a program in an unambiguous way?
 * Formally precisely and unamiously specify what happens for a given program

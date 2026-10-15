@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-02-01
 ---
 The act of combining the application of multiple [[Mathematics/Set Theory/Function|Function]]s into one function.

@@ -1,4 +1,5 @@
 ---
+date: 2026-10-15
 aliases:
 ---
 A *concept* (C++20) is a named set of constraints on a template parameter in [[C++]]. It is the [[C++ Template Metaprogramming|Template Metaprogramming]] equivalent of a Rust trait bound.

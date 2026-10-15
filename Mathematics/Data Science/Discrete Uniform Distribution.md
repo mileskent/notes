@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Discrete Distribution]] where each [[Outcome]] has *uniform* (equal) [[Probability]].
 
 * $f(x) = \frac{1}{n}$

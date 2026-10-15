@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-01-28
 ---
 In [[Functional Analysis]], a *Lebesgue Space*, denoted by $L^p$, where $p > 0$, acts of [measurable](https://en.wikipedia.org/wiki/Measurable_function) [[Mathematics/Set Theory/Function]]s $f$, such that:

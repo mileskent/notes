@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-06-09
 ---
 *Radar* (Radio Detection And Ranging) is a system that uses radio waves to detect and locate objects. A [[Transmitter]] emits a radio [[Physics/Electromagnetism/Pulse|pulse]], which reflects off a target and returns to a [[Receiver]]. From the returned [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signal]] you can extract:

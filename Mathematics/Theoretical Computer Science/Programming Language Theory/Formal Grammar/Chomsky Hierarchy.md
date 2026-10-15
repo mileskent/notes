@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Chomsky Hierarchy* is the 4 tier hiearchy of [[Formal Grammar|Formal Grammars]], created by linguist Noam Chompsky. 
 
 

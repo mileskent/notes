@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Discrete Distribution]] that models the count of events occurring in a fixed interval of time or space, assuming events happen independently at a constant average rate $\lambda$.
 
 * $f(x) = \frac{\lambda^x e^{-\lambda}}{x!} \quad \text{for } x \in \mathbb{N}_{0}$

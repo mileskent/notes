@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 An *Operator* is an [[Mathematical Object|Object]] that manipulates [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signals]]. It is a [[Point-Free]] [[fold]] for signals. Operators can have arbitrarily many signal inputs, but unary operators (e.g. inverter) and binary operators (e.g. add) are most common.
 
 # Linear Unary Operator

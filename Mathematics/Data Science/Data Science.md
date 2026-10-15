@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Data Science* is the formal study of data. 
 
 # Probability Theory vs Statistics
@@ -12,3 +15,6 @@ As you can see, the relationship is highly symmetrical, and the two fields exist
 
 # Probability Theory
 ![[Probability Theory]]
+
+# Statistics
+![[Statistics]]

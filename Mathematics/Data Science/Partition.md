@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A *Partition* of a [[Sample Space]] is a [[Set]] of [[Event]]s that are [[Disjoint]] that form the [[Universe]]
 
 $$

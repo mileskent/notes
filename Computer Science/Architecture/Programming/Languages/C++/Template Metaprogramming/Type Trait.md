@@ -1,4 +1,5 @@
 ---
+date: 2026-10-15
 aliases:
 ---
 A *type trait* is a [[C++ Template Metaprogramming|Template Metaprogramming]] pattern in [[C++]]. It is a template struct that exposes a [[Compile-Time]] fact about a type, typically through a static constexpr member called value or a member type alias called type. It is equivalent to [[Rust]]'s trait bounds.

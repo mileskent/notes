@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2025-02-03
 ---
 An approach for computing what frequencies are present in a [[Wave]], in particular the [[Frequency Spectrum]], entirely from its dependence on time.

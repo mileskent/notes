@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-05-27
 aliases:
   - LTI System

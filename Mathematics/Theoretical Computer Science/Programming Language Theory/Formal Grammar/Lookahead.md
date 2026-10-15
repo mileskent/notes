@@ -1,1 +1,4 @@
+---
+date: 2026-10-15
+---
 Lookahead is a concept in [[Parsing]] that refers to the looking ahead of the pointer that is walking through the string in order to evaluate the correct traversal through the [[Formal Grammar]], in order to create a proper [[Concrete Syntax Tree|Parse Tree]] artifact.

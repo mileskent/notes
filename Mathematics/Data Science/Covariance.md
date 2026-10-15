@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 Covariance measures the direction of the linear relationship between two random variables.
 
 $$

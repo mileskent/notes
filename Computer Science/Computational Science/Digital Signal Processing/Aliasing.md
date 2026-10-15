@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-05-25
 ---
 [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signals]] that are [[Sampling|sampled]] with too low of a [[Sampling#Sampling Frequency]] can appear as lower frequencies; using an insufficiently high sampling frequency can cause totally different [[Analog Signal|Continuous-Time Signals]] to look identical in their [[Discrete-Time Signal|Discrete-Time]] forms. The minimum sampling frequency needed to reconstruct a given CT signal is given by the [[Nyquist-Shannon Sampling Theorem]].

@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Continuous Distribution]] that models the time or space between independent events occurring at a constant average rate $\lambda$.
 $$
 X \sim \text{Exp}(\lambda) \quad \text{where}\ x \geq 0,\ \lambda>0

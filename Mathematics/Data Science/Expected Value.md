@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 $$
 E(X) = \text{sum}_{S}\ x f(x) = \int_{S} x\ dF
 $$

@@ -1,1 +1,4 @@
+---
+date: 2026-10-15
+---
 A *Sample* is a [[Subset#Proper Subset]] of a [[Population]]. ^7a36d2

@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2025-01-07
 aliases:
   - Network Bandwidth

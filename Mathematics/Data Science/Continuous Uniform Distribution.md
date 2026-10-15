@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Continuous Distribution]] where each [[Outcome]] has *uniform* (equal) [[Probability Density Function|Probability Density]].
 $$
 X \sim U(a,b) \quad \text{where}\ a < x < b

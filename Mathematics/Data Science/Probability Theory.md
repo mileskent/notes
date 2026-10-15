@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Probability Theory* is the study of predicting [[Sample|Samples]] from [[Population]] ^e39c62
 
 Futhermore, it is essentially applied [[Set Theory]] and [[Combinatorics]]. At least on the surface level. It gets its rigor from Measure Theory, believe it or not, even though that is more of a Geometry/Topology adjacent field.

@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 *Context-Free Grammar* is the [[Formal Grammar]] defined by axioms of the form $N \rightarrow (N \cup \Sigma)^*$. That is, from a nonterminal to some string with some combination of terminal and/or nonterminals.
 * Context-Free Grammar is [[Isomorphism|isomorphic]] to First-Order Polynomial [[Algebraic Data Type|Algebraic Data Types]]
 * Context-Free Grammar is the most common type of Grammar for programming languages

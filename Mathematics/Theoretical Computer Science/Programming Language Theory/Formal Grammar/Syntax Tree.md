@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A *Syntax Tree* is the artifact [[Tree]] you get during the process of [[Parsing]] a [[Programming Language]]. 
 
 It comes in two flavors. 

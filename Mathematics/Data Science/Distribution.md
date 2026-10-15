@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 * Distribution
 	* [[Discrete Distribution]], A Distribution with a Discrete [[Random Variable]]
 		* [[Discrete Uniform Distribution]]

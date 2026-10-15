@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 --
 
 A kind of [[Continuous Distribution]] that is symmetric and bell-shaped, completely characterized by its mean $\mu$ and variance $\sigma^2$, where outcomes cluster around the center.

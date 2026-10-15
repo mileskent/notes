@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-06-09
 ---
 An *antenna* is a transducer that converts between [[Computer Science/Computational Science/Digital Signal Processing/Signal|electrical signals]] and [[Electromagnetic Wave|electromagnetic waves]]. 

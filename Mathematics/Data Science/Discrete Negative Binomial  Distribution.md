@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 A kind of [[Discrete Distribution]] that models the number of independent [[Discrete Bernoulli Distribution|Bernoulli]] Trial until the $r^\text{th}$ Success, where each trial has a [[Probability]] $p$ of success.
 $$
 X \sim \text{NB}(r,p)

@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 $$
 \text{Disjoint(A,B)} \equiv A \cap B = \varnothing 
 $$

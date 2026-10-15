@@ -1,4 +1,7 @@
 ---
+date: 2026-10-15
+---
+---
 date: 2026-05-21
 ---
 Any [[Mathematics/Set Theory/Function|Function]] can be *uniquely* decomposed into the sum of an [[Even Function]] and an [[Odd Function]]

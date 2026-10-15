@@ -1,3 +1,6 @@
+---
+date: 2026-10-15
+---
 Based on the [[Principle of Inclusion-Exclusion]], which relates to [[Cardinality]]. We can simply divide both sides by the cardinality of the [[Universe]] in order to get everything in terms of cardinality. See [[Probability Theory#Correspondance to Set Theory]]
 $$
 \begin{align}
