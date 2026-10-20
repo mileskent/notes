@@ -72,8 +72,8 @@
 * BIOS data area exists between the kernel and user in virtual address space
 
 * Tracing from power-on to entering the shell
-	* Computer powers on, physical memory empty, #todo add the stuff about real mode and later on protected mode in bootasm.S PE cr0, and also linear addresses
-	* Computer always runs BIOS upon powering on
+	* Computer powers on, physical memory empty, **16 bit real mode**
+	* Computer always runs BIOS upon powering on, loads from reset vector
 		* BIOS firmware is on the motherboard's ROM
 		* CPU executes BIOS from directly on the ROM
 	* BIOS begins executing
@@ -82,6 +82,10 @@
 		* 512 byte Boot block is found and loaded into physical memory 0x7c00
 		* Start to execute contents of Boot block, called Boot loader
 	* Bootloader begins executing
+		* Transitions to **32 bit protected mode**
+			* Loads the GDT
+			* Enables protected mode with cr0 |= CR0_PE
+			* Load 32 bit segment selector
 		* Loads the kernel ELF binary into physical memory at 0x100000
 		* Begins executing the kernel at its entrypoint (entry.S) after checking the kernel's ELF headers, and parsing the entrypoint from the ELF
 	* Kernel begins executing
@@ -92,7 +96,7 @@
 				* Set Page Dir Base Register
 					* cr3 = phys addr &entrypgdir
 					* entrypgdir is statically defined in main.c, that is temporary, just for the duration of entry
-			* Enable Paging
+			* **Enable Paging**
 				* cr0 |= CR0_PG | CR0_WP
 			* Set stack pointer to the top of the stack (stack grows down)
 				* esp = top of stack in memory
@@ -122,7 +126,7 @@
 				* kinit2
 		* Allocate the primordial init user process
 			* userinit
-				* allocates a process PCB and its page table and gives info to initcode.S
+				* allocates a process PCB and its page dir and page table and gives info to initcode.S
 				* puts a fake trapframe on the top of the kernel stack
 				* loads initcode.S into memory
 		* mpmain
@@ -146,7 +150,20 @@
 
 ## Ch 2
 
-* eflags #todo
+This chapter is on Paging
+
+Eflags Register. The eflags register contains transient state related to the execution of the CPU.
+* Arithmetic Status Flags
+	* Carry, zero, sign, overflow
+* System Flags
+	* interrupt enabled (mask interrupt), trap, io priviledge requirement
+* Other stuff
+
+
+PTE flags
+
+
+Registers. Notably: eax, esp, eip.
 
 | Register | Name/Purpose                |
 | :------- | :-------------------------- |
@@ -160,6 +177,7 @@
 | ESP      | **S**tack **P**ointer       |
 | EIP      | **I**nstruction **P**ointer |
 
+![[Pasted image 20261019221036.png]]
 * ![[Pasted image 20261018225005.png|650]]
 	* PTE flags take note
 * virtual address space
@@ -174,13 +192,73 @@
 * xv6 uses super pages only temporarily for entrypgdir in the bootloader. We use super pages here in order to map the kernel before full page allocation is running. Without super pages, the code would become more complex, as entrypgdir would no longer be able to simple map a 4 MB chunk all at once. Rather, it would have to construct the neccessary page tables to support many 4 KB pages in order to map this same region.
 * sbrk takes pages
 * You can make null pointer dereferences trigger a page fault my creating a guard page at address 0x0
+
+* kalloc is free to allocate any free page within virtual kernel memory from the P2V(end) and P2V(PHYSTOP). The end marker indicates the end of the kernel's instructions and static data. It always returns exactly one virtual page (4 KB). For example, allocating a pgdir or pgtable, we kalloc a page to store the array. 
+
+
 ## Ch 3
+This chapter is about traps, interrupts, and drivers, isolation
+
+* Ring/Priviledge Levels
+	* 0, 3. Others don't matter
+	* CPL is Current Privilege Level, which is stored in the %cs register and represents the privilege level with which the x86 currently executes instructions
+	* DPL is Descriptor Privilege Level, which is the privilege level specified within a descriptor (such as an IDT entry) against which priviledge checks are performed, i.e. we check that CPL is sufficient priviledge to access a segment that has a DPL
+
+
+* Prefacing descriptor table mappings
+	* GDT/LDT - Global/Local Descriptor Table
+		* Key
+			* Segment Selector
+				* Code Segment Selector: a segment selector for code
+		* Value
+			* Segment Descriptor: segment's base, limit, perms
+				* Code Segment Descriptor: a segment descriptor that contains code
+	* IDT - Interrupt Descriptor Table
+		* Key
+			* Interrupt Handler ID, e.g. T_SYSCALL
+		* Value
+			* Gate Descriptor: contains the follow information for a Interrupt Handler
+				* Code Segment Selector (%cs) of the Interrupt Handler fn
+				* Instruction Pointer (%eip) of the label of the Interrupt Handler fn
+				* DPL of the **Gate***
+					* Notably the GD DPL *does not* have to match the DPL of the CS. In fact, it often *does not* match. For example, T_SYSCALL has a Ring 3 DPL so that users can trigger an interrupt. Meanwhile, the DPL of the CS of the syscall handler is Ring 0. Think of the Gate DPL as controlling access of the "doorbell" to trigger a trap, whereas who can actually has priviledge to execute the handler is isolated from and irrelevant to the ringer of the doorbell. 
+				* Metadata
+	
+* IDT  maps interrupt vector (id) $\rightarrow$ Gate Descriptor
+
+Tradeoffs of different levels of paging
+* More levels means less memory overhead
+* More levels means slower lookup given a TLB miss
+* Everything more than one level does not need contiguous memory
+
 ## Ch 4
+Locking
+
+* Spinlock, spins unless the lock is releasedA
+	* Lower overhead, more pervasive
+* Sleeplock, sleeps until the lock is released
+	* Leave interrupts enabled, cannot be used in interrupt handlers
+	* Used mainly in filesystem
+* Deadlock
+
+
+
 ## Ch 5
-
-
+* Scheduling is an isolation mechanism to conceal the existence of processes from one another.
+* 
+* Conditional Synchronization
+	* Sleep
+		* sleep(channel, lock) releases the CPU burst and listens to channel for a signal to wakeup
+	* Wakeup
+		* wakeup(channel) sends a signal to channel to wakeup
+	* This process uses the process metadeta marker, adding SLEEPING. Sleep sets SLEEPING. Wakeup sets RUNNABLE.
+* Lost Wakeup
+	* In a data race between the receiver confirming it needs to sleep and and it actually sleep, the producer sends data and calls wakeup. The wakeup does nohing, and the receiver sleeps for too long.
+	
 ## GDB
-* Set a breakpoint at swtch. Single step with gdb’s stepi through the ret to forkret,then use gdb’s finish to proceed to trapret, then stepi until you get to initcode at virtual address zero.
+* p/x $reg prints the raw hex of reg
+* x/x reg dereferences the value, gives mem\[$reg\]
+
 ## Misc
 - Figure out correspondence to LC3 registers, eg PTBR, PC, etc
 * Other registers? eax?
@@ -194,10 +272,77 @@
 	- cr4: Extended CR; set variosu architectural extensions that aren't part of the 386 design
 - powers of 2 for different storage sizes, needed for PHYSTOP to GB conversion, for example.
 
-# Go through lectures too
-currently on lec03
+
+
 # Labs
+## Lab Quiz 1
+
+
+
 # PExam
+## Q1
+## Q2
+## Q3
+Youur friend Robert is construction a new 32 bit CPu architecture and considering makin the vmem page size on his architecture 32 bytes, much smaller than the class 4 kb page
+#### A
+> Would you expect a kernel runninng on top of Rob's architecture to be more or less memory efficient than a classic 4kb page architecture. Please explain why.
+
+- Offset: for a 32 byte page size means offset is 5 bits.
+- PPN: 32 - 5 = 27 bits
+
+What I am wondering for this question is what are the tradeoffs of different page sizes.
+- Less internal fragmentation for smaller pages
+- Smaller pages get us a bigger page table
+- More TLB misses because the TLB size stays the same, but there are far more pages to cache
+- More Page faults for the same reason
+
+It is less memory efficient.
+
+#### B
+> Robert also wants his hardware to have a robust tracking and permisison system, adding a permission bit for reading, writer, user/superuser, a control bit to disable HW caching and some Hw monitoring bits for access,, and dirtyy to each page,
+
+
+### Q4
+#### A
+Marking the user space stack as nonexecutable makes sense because the stack is not meant to be executed. The user programs have control over the stack, so if the stack can be executed, this could pose security risks.
+#### B
+- **Parse ELF Program Header Flags:** The ELF binary format contains program headers (`elfprog`) that specify the permissions for each segment (such as read, write, and execute flags via `p_flags`). `exec` must inspect these flags for each loadable segment rather than treating all memory segments uniformly.
+- **Differentiated Page-Table Permission Mapping:** When `exec` allocates and loads segments into memory (using functions like `allocuvm` or `loaduvm`), it must pass distinct permission flags to the page-table mapping functions (`mappages`):
+    - **Code Segment:** Set the execute bit enabled (and typically clear the write bit to make the text segment read-only).
+    - **Static Dataspace (Data/BSS):** Keep the execute bit cleared (non-executable) while retaining read/write permissions.
+- **Update Underlying VM Helpers:** Modify helper functions called during execution loading so they can accept and apply granular permission flags (including the architecture's execute bit) directly to the corresponding Page Table Entries (PTEs).
+
+### Q5
+#### A
+Second Chance clock thing. See [[Replacement Algorithm|Page Replacement Algorithms]].
+
+Treat the present bit as the accessed bit. Use this bit for both purposes at the same time. 
+
+#### B
+The access bit second chance semantics remain the same. The present bit semantics stay the same, its just that we have to unnessarily remap the page when it already does have a mapping.
+
+### Q6
+Response time
+B
+B
+
+### Q7
+#### A
+Inconclusive
+
+#### B
+Put x = 10 in the T1 lock
+
+# Pexam 2
+## Q1
+#### A
+You can use 5 | 5 | 6 for the split. 6 bits for the regular 64 B page. The page dir and page table both evenly split 10 bits.
+#### B
+* 2^5 page dir entries, 2^5 page table entries, 2^6 sized pages
+* Total bytes used by all page tables.
+	* 2^5 * 16 + 2^5 * 2^5 * 16 + (2^5 * 2^5) * (2^6) bits
+* Virtual memory allocated by process.
+
 
 
 
@@ -247,7 +392,7 @@ why?
 
 
 #### Real Mode vs Protected mode
-Protected mode is the mode you will interact with 99% of the time. Real mode (16 bit) is the default state of the x86 processor for backward compatibility with the original Intel 8086. On systems with a BIOS, it switches in the early stages of the boot process. For UEFI systems, literally the first few assembly instructions of the boot process.
+Protected mode is the mode you will interact with 99% of the time. Real mode (16 bit) is the default state of the x86 processor for backward compatibility with the original Intel 8086. On systems with a BIOS, it switches in the early stages of the boot process. For UEFI systems, literally the first few assembly instructions of the boot process. This is muxed via CR0.PE.
 
 #### Real Mode Segmentation
 Code, data, and stack exist in different segments
@@ -387,7 +532,28 @@ Layout
 
 
 
-
+| **System call**             | **Description**                            |
+| --------------------------- | ------------------------------------------ |
+| `fork()`                    | Create a process                           |
+| `exit()`                    | Terminate the current process              |
+| `wait()`                    | Wait for a child process to exit           |
+| `kill(pid)`                 | Terminate process pid                      |
+| `getpid()`                  | Return the current process's pid           |
+| `sleep(n)`                  | Sleep for n clock ticks                    |
+| `exec(filename, *argv)`     | Load a file and execute it                 |
+| `sbrk(n)`                   | Grow process's memory by n bytes           |
+| `open(filename, flags)`     | Open a file; the flags indicate read/write |
+| `read(fd, buf, n)`          | Read n bytes from an open file into buf    |
+| `write(fd, buf, n)`         | Write n bytes to an open file              |
+| `close(fd)`                 | Release open file fd                       |
+| `dup(fd)`                   | Duplicate fd                               |
+| `pipe(p)`                   | Create a pipe and return fd's in p         |
+| `chdir(dirname)`            | Change the current directory               |
+| `mkdir(dirname)`            | Create a new directory                     |
+| `mknod(name, major, minor)` | Create a device file                       |
+| `fstat(fd)`                 | Return info about an open file             |
+| `link(f1, f2)`              | Create another name (f2) for the file f1   |
+| `unlink(filename)`          | Remove a file                              |
 
 
 
@@ -401,17 +567,6 @@ Layout
 * Isolation can be desirable because it prevents outside sources of failure, danger, chaos. This meaning we have higher predictability and determinism.
 * Isolation can be undesirable because it prevents cohesion & collaboration. This can have the side effect of worse performance.
 
-## Rings
-### Ring 0
-### Ring 1
-### Ring 2
-### Ring 3
-
-# Kernel Types
-* Monolithic Kernel
-* Microkernel
-* Exokernel
-* Formally Verified Kernel
 # Kernel Threading Models
 * Many-to-One
 	* All user processes have one kernel thread
@@ -424,6 +579,9 @@ Layout
 	* Scheduler Activations
 * Hybrid
 
+# Kernel Types
+![[Pasted image 20261019220608.png|351]]
+
 # Pinned Page
 You can pin pages to prevent them from being evicted. 
 
@@ -432,3 +590,23 @@ The Page Cache is a cache for files, that exists in a reserved section of physic
 
 # mmap
 When you mmap, the kernel allocates a region of the process' memory to serve as a one to one Virtual Memory Area for that file, while the actual file on disk becomes the swap space for its own VMA. However, the mapping is not to the actual file on disk through magic, but rather to that file's entries in the Page Cache. Once the VMA exists, all the subsequent virtual memory behavior is precisely the same behavior as if there was no mmap. The mmap's VMA is process specific. Cross process communication happens instantly through the Page Cache; when a process writes the VMA, all other processes can instantly see the change, because their individual VMAs are mapped to the exact same physical RAM pages in the Page Cache. It is basically like having a bunch of hardlinks to the same inode or a bunch of pointers to the same datum, but for virtual memory.
+
+
+# Descriptor Tables
+* GDT
+	* Describes segments across the entire system
+* IDT
+	* IDT tells CPU where to go on traps with Gate descriptors
+* LDT
+	* GDT but local to a process
+
+# Maskable Interrupts
+Maskable Inerrupts can be ignored. sti and cli. Non Maskable Interrupts can never be ignored. You can have both at the same time.
+
+# Page Replacement Algorithms
+
+# Total Store Ordering
+any W-R where the W and R are different variables can be reordered
+
+
+
