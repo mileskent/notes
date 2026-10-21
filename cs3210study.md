@@ -211,7 +211,7 @@ This chapter is about traps, interrupts, and drivers, isolation
 			* Segment Selector
 				* Code Segment Selector: a segment selector for code
 		* Value
-			* Segment Descriptor: segment's base, limit, perms
+			* Segment Descriptor: segment's base, limit, DPL
 				* Code Segment Descriptor: a segment descriptor that contains code
 	* IDT - Interrupt Descriptor Table
 		* Key
@@ -234,7 +234,7 @@ Tradeoffs of different levels of paging
 ## Ch 4
 Locking
 
-* Spinlock, spins unless the lock is releasedA
+* Spinlock, spins unless the lock is released
 	* Lower overhead, more pervasive
 * Sleeplock, sleeps until the lock is released
 	* Leave interrupts enabled, cannot be used in interrupt handlers
@@ -276,73 +276,6 @@ Locking
 
 # Labs
 ## Lab Quiz 1
-
-
-
-# PExam
-## Q1
-## Q2
-## Q3
-Youur friend Robert is construction a new 32 bit CPu architecture and considering makin the vmem page size on his architecture 32 bytes, much smaller than the class 4 kb page
-#### A
-> Would you expect a kernel runninng on top of Rob's architecture to be more or less memory efficient than a classic 4kb page architecture. Please explain why.
-
-- Offset: for a 32 byte page size means offset is 5 bits.
-- PPN: 32 - 5 = 27 bits
-
-What I am wondering for this question is what are the tradeoffs of different page sizes.
-- Less internal fragmentation for smaller pages
-- Smaller pages get us a bigger page table
-- More TLB misses because the TLB size stays the same, but there are far more pages to cache
-- More Page faults for the same reason
-
-It is less memory efficient.
-
-#### B
-> Robert also wants his hardware to have a robust tracking and permisison system, adding a permission bit for reading, writer, user/superuser, a control bit to disable HW caching and some Hw monitoring bits for access,, and dirtyy to each page,
-
-
-### Q4
-#### A
-Marking the user space stack as nonexecutable makes sense because the stack is not meant to be executed. The user programs have control over the stack, so if the stack can be executed, this could pose security risks.
-#### B
-- **Parse ELF Program Header Flags:** The ELF binary format contains program headers (`elfprog`) that specify the permissions for each segment (such as read, write, and execute flags via `p_flags`). `exec` must inspect these flags for each loadable segment rather than treating all memory segments uniformly.
-- **Differentiated Page-Table Permission Mapping:** When `exec` allocates and loads segments into memory (using functions like `allocuvm` or `loaduvm`), it must pass distinct permission flags to the page-table mapping functions (`mappages`):
-    - **Code Segment:** Set the execute bit enabled (and typically clear the write bit to make the text segment read-only).
-    - **Static Dataspace (Data/BSS):** Keep the execute bit cleared (non-executable) while retaining read/write permissions.
-- **Update Underlying VM Helpers:** Modify helper functions called during execution loading so they can accept and apply granular permission flags (including the architecture's execute bit) directly to the corresponding Page Table Entries (PTEs).
-
-### Q5
-#### A
-Second Chance clock thing. See [[Replacement Algorithm|Page Replacement Algorithms]].
-
-Treat the present bit as the accessed bit. Use this bit for both purposes at the same time. 
-
-#### B
-The access bit second chance semantics remain the same. The present bit semantics stay the same, its just that we have to unnessarily remap the page when it already does have a mapping.
-
-### Q6
-Response time
-B
-B
-
-### Q7
-#### A
-Inconclusive
-
-#### B
-Put x = 10 in the T1 lock
-
-# Pexam 2
-## Q1
-#### A
-You can use 5 | 5 | 6 for the split. 6 bits for the regular 64 B page. The page dir and page table both evenly split 10 bits.
-#### B
-* 2^5 page dir entries, 2^5 page table entries, 2^6 sized pages
-* Total bytes used by all page tables.
-	* 2^5 * 16 + 2^5 * 2^5 * 16 + (2^5 * 2^5) * (2^6) bits
-* Virtual memory allocated by process.
-
 
 
 
@@ -609,4 +542,16 @@ Maskable Inerrupts can be ignored. sti and cli. Non Maskable Interrupts can neve
 any W-R where the W and R are different variables can be reordered
 
 
+Threads = processes but share address space
+- Lower creation, swtch, communication cost
+- Worse fault isolation
 
+# Page Size Tradeoffs
+Smaller page size
+- Less internal fragmentation for smaller pages
+- Smaller pages get us a bigger page table
+- More TLB misses because the TLB size stays the same, but there are far more pages to cache
+- More Page faults for the same reason
+
+
+# ELF
