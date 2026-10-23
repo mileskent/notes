@@ -1,0 +1,9 @@
+[[Monolithic Kernel]] vs [[Microkernel]] essentially boils down to Speed & Simplicity vs Robustness. [[Linux]] is monolithic.
+* Fault Tolerance and Security: **Microkernel**
+	* A Monolithic kernel has all OS functionality within the kernelspace, whereas microkernels delegate non-core OS functionality to userspace servers. Microkernels are superior for fault tolerance and security because bugs/hacks/crashes of userspace OS services stay contained to that service, rather than potentially compromising the entire kernel
+* Performance and Communications: **Monolithic**
+	* A monolithic kernel has superior performance and communications because all OS functionality exists within the same address space of the kernel, meaning that there is no context/mode switch or copying or messaging overhead
+* Simplicity: **Monolithic**
+	* Monolithic kernel is superior in simplicity because the OS exists as a single, cohesive, executing unit where different OS services know about each other and are designed with each other in mind
+* Modularity: **Microkernel**
+	* While Monolithic kernels do have [[Kernel Module]]s (relatively new from a historical perspective) there is still a huge difference between dynamically loading shared kernel object files and the true architectural modularity of microkernels. Monolithic kernels are designed with tight coupling in mind, and thus do not integrate well with foreign code, especially through updates. Microkernels, on the other hand, must support modularity because it is essential to the basic operation of the kernel. Thus, the API for microkernels is much more stable, providing a natural and loosely coupled API for standardized inter-process communication.
