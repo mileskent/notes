@@ -1,5 +1,11 @@
-A *Point Estimator* is a [[Statistic]] that is designed to estimate a [[Parameter]].
+---
+aliases:
+  - Point Estimator
+---
 
+A *Point Estimator* is a [[Statistic]] that is designed to estimate a [[Parameter]]. 
+
+* A regular statistic is just any feature from the data, whereas a Point Estimator specifically involves using the feature to predict the population parameter
 * In order to *evaluate how good* a Point Estimator is, our goal is to minimize [[#Mean Squared Error]], i.e. both [[#Bias]] *and* [[#Variance]]. Minimizing MSE maximizes accuracy of the Point Estimator.
 * In order to *find* a Point Estimator we can use techniques such as
 	* [[#Method of Moments]]

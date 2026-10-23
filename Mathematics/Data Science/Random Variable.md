@@ -1,5 +1,7 @@
 ---
 date: 2026-10-15
+aliases:
+  - RV
 ---
 A *Random Variable* is a [[Mathematics/Set Theory/Function|Function]] $X$ that maps each [[Outcome]] $\omega$ of the [[Sample Space]] $S$ of a [[Random Experiment]] to a [[Real Number]] $x \in \mathbb{R}$
 

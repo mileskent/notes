@@ -10,29 +10,26 @@ In the real world, you don't [[Parameter]]s, so you have to approximate them wit
 # Point Estimation
 ![[Point Estimation]]
 
-# Sampling Distribution
-A *Sampling Distribution* is a [[Distribution]] of a [[Statistic]].  
+# Confidence Intervals
+## Sample Distribution
+![[Sample Distribution]]
 
-## Chi Squared Distribution
-$$
-\frac{
-Z_{1..k} \sim^\text{iid} N(0,1)
-}
-{
-\chi^2_{(k)}
-\sim
-\sum^k_{i=1} Z_{i}^2 
-}
-$$
-* $E[Y] =k$
-* $\text{Var}(Y) =2k$
+## Sampling Distribution
+![[Sampling Distribution]]
 
-## t distribution
-$$
-T \equiv \frac{Z}{\sqrt{ Y/k }} \sim t_{(k)}
-$$
+The [[Central Limit Theorem]] gives a *Sample Mean Sampling Distribution* where when $n$ is sufficiently large, the distribution is approximately a [[Continuous Standard Normal Distribution|Z Distribution]]
 
-## F distribution
-$$
-F\equiv \frac{X/m}{Y/m} \sim F(n,m)
-$$
+### Degree of Freedom
+![[Degree of Freedom]]
+
+### Chi Squared Distribution
+![[Chi Squared Distribution]]
+
+### t distribution
+![[Student's t distribution]]
+
+### F distribution
+![[F distribution]]
+
+## Confidence Interval
+![[Confidence Interval]]

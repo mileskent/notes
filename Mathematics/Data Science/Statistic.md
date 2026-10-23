@@ -2,8 +2,12 @@
 date: 2026-10-15
 ---
 # Statistic
-A *Statistic* is a scalar feature extracted from a [[Sample]] that represents it is some way. As opposed to [[Parameter]]
-# Sample Features
+A *Statistic* is a scalar feature extracted from a [[Sample]] that represents it in some way. As opposed to [[Parameter]]. 
+
+$$
+T: X_{1..n} \in \text{RV} \rightarrow \mathbb{R}
+$$
+# Sample Statistic
 * Sample Mean $\overline{X} = \frac{\sum X}{n}$
 * Sample Median: Middle entry in Sample
 * Sample Mode: Most occurences in Sample

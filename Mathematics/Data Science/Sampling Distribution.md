@@ -1,0 +1,1 @@
+A *Sampling Distribution* is a [[Distribution]] of a particular [[Statistic#Sample Statistic]], sampled repeatedly from a [[Population]]. For example, a distribution of sample average heights. 
