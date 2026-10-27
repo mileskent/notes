@@ -33,3 +33,8 @@ The [[Central Limit Theorem]] gives a *Sample Mean Sampling Distribution* where 
 
 ## Confidence Interval
 ![[Confidence Interval]]
+
+
+
+![[Pasted image 20261027161629.png]]
+for unknown variance, it should be S's not sigmas
