@@ -49,15 +49,7 @@ $$
 
 # Finding a Point Estimator
 ## Method of Moments
-The $k^\text{th}$ moment for RV $X$ is
-$$
-E[X^k] = \text{sum}\ x^k f(x)
-$$
-
-For $X_{1..n} \sim^{iid}$ from PMF/PDF $f(x)$, then the Method of Moments estimator for $E(X^k)$ is 
-$$
-\frac{1}{n} \sum^n_{i=1} X^k_{i}
-$$
+![[Method of Moments]]
 ## Maximum Likelihood Estimator
 For $X_{1..n} \sim^{iid} f(x;\theta)$
 
