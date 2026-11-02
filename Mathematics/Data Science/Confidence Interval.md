@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 A *Confidence Interval* is a technique in [[Statistics]], where instead of estimating a [[Parameter]] by a [[Point Estimation|Point Estimator]] alone, we create an interval that we know contains the unknown parameter with a certain [[Probability]].
 
 A $100(1-\alpha)\%$ *Confidence Interval* for an unknown parameter $\theta$ is given by $L,U \in\text{RV}$ satisfying

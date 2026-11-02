@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 A $\chi^2$ *[[Distribution]]* is a kind of [[Sampling Distribution]] formed by combining iid squared [[Continuous Standard Normal Distribution|Z Distribution]]s through addition. 
 * $\chi^2$ shows up when we try to estimate [[Variance]]
 

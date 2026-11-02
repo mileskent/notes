@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 [[Monolithic Kernel]] vs [[Microkernel]] essentially boils down to Speed & Simplicity vs Robustness. [[Linux]] is monolithic.
 * Fault Tolerance and Security: **Microkernel**
 	* A Monolithic kernel has all OS functionality within the kernelspace, whereas microkernels delegate non-core OS functionality to userspace servers. Microkernels are superior for fault tolerance and security because bugs/hacks/crashes of userspace OS services stay contained to that service, rather than potentially compromising the entire kernel

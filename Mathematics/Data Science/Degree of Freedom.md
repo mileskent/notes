@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 *Degrees of Freedom* is a property of a [[Statistic]] or [[Point Estimation|Point Estimator]] that describes how many variables are free to vary while maintaining the feature's validity.
 * For statistic/PE $T$ that is a [[Linear Transformation]], dof = [[Nullity|nullity]](T)
 # Example

@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 In [[Statistics]], a *Quantile* is a statistical value that divides a [[Probability Distribution]] into equally weighted continuous intervals.
 * Percentile, divide into 100 equal parts
 * Quartile, divide in 4 equal parts

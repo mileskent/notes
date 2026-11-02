@@ -1,4 +1,5 @@
 ---
+date: 2026-11-02
 aliases:
   - t distribution
 ---

@@ -1,3 +1,6 @@
+---
+date: 2026-11-02
+---
 An *F [[Distribution]]* is a kind of [[Sampling Distribution]] formed by combining two independent [[Chi Squared Distribution]]s in the following fasion
 
 $$
