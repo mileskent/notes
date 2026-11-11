@@ -1,7 +1,4 @@
 ---
-date: 2026-10-15
----
----
 date: 2026-06-09
 ---
 *Morphological opening* is [[Morphological Erosion]] followed by [[Morphological Dilation]] with the same kernel width $k$. It is transitively also a nonlinear [[Filter]] applied to a [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signal]].

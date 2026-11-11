@@ -1,7 +1,4 @@
 ---
-date: 2026-10-15
----
----
 date: 2026-06-09
 ---
 *Morphological closing* is [[Morphological Dilation]] followed by [[Morphological Erosion]] with the same kernel width $k$. It is transitively also a nonlinear [[Filter]] applied to a [[Computer Science/Computational Science/Digital Signal Processing/Signal|Signal]].
